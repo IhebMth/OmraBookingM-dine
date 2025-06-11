@@ -1,5 +1,6 @@
 {
   "makkahHotels": [
+    
     {
       "id": "hotel_1",
       "name": "Makarem Ajyad Makkah Hotel",
@@ -10,7 +11,7 @@
       "id": "hotel_2",
       "name": "Dar Al Eiman Grand Hotel",
       "category": "5-Star",
-      "district": "Central"
+      "district": "Al Haram"
     },
     {
       "id": "hotel_3",
@@ -264,6 +265,7 @@
       "category": "5-Star",
       "district": "Central"
     },
+    
     {
       "id": "hotel_45",
       "name": "Al Jaad Mahbas Hotel",
@@ -272,21 +274,21 @@
     },
     {
       "id": "hotel_46",
-      "name": "Makarem Mina",
-      "category": "4-Star",
-      "district": "Mina"
-    },
-    {
-      "id": "hotel_47",
       "name": "Lamar Ajyad 2 - Tower B",
       "category": "4-Star",
       "district": "Ajyad"
     },
     {
-      "id": "hotel_48",
-      "name": "Al Massa Hotel",
+      "id": "hotel_47",
+      "name": "AL MASSA HOTEL",
       "category": "4-Star",
       "district": "Central"
+    },
+    {
+      "id": "hotel_48",
+      "name": "Makarem Mina",
+      "category": "4-Star",
+      "district": "Mina"
     },
     {
       "id": "hotel_49",
@@ -344,7 +346,7 @@
     },
     {
       "id": "hotel_58",
-      "name": "Baisan Golden Hotel",
+      "name": "BAISAN GOLDEN HOTEL",
       "category": "4-Star",
       "district": "Central"
     },
@@ -398,915 +400,1133 @@
     },
     {
       "id": "hotel_67",
-      "name": "Dar Al Azhar Hotel Makkah",
+      "name": "Ehdaa Alwesam",
       "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_68",
-      "name": "Midan Hotel",
+      "name": "Dar Al Azhar Hotel Makkah",
       "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_69",
+      "name": "Midan Hotel",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_70",
       "name": "Millennium Makkah Al Naseem",
       "category": "4-Star",
       "district": "Al Naseem"
     },
     {
-      "id": "hotel_70",
+      "id": "hotel_71",
       "name": "Forsan Ajyad Hotel",
       "category": "4-Star",
       "district": "Ajyad"
     },
     {
-      "id": "hotel_71",
+      "id": "hotel_72",
       "name": "Amjad Al Diyafah",
       "category": "4-Star",
       "district": "Central"
     },
     {
-      "id": "hotel_72",
+      "id": "hotel_73",
       "name": "Nada Al Diyafah Hotel",
       "category": "4-Star",
       "district": "Central"
     },
     {
-      "id": "hotel_73",
+      "id": "hotel_74",
       "name": "Rehab AlMarwa Hotel",
       "category": "4-Star",
       "district": "Central"
     },
     {
-      "id": "hotel_74",
-      "name": "Nasayim Aljoury Hotel",
-      "category": "4-Star",
-      "district": "Central"
-    },
-    {
       "id": "hotel_75",
-      "name": "Elaf Al Salam Hotel",
+      "name": "Nasayim aljoury hotel",
       "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_76",
-      "name": "Ezwa House Hotel",
+      "name": "Elaf Al Salam Hotel",
       "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_77",
-      "name": "Danah Al Azizyah",
+      "name": "Ezwa House Hotel",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_78",
+      "name": "Danah al Azizyah",
       "category": "4-Star",
       "district": "Al Aziziah"
     },
     {
-      "id": "hotel_78",
+      "id": "hotel_79",
       "name": "Alrawda Almakyah Hotel",
       "category": "4-Star",
       "district": "Central"
     },
     {
-      "id": "hotel_79",
+      "id": "hotel_80",
       "name": "Dar El Khalil El Rushad Hotel",
       "category": "4-Star",
       "district": "Central"
     },
     {
-      "id": "hotel_80",
+      "id": "hotel_81",
       "name": "Copthorne Makkah Al Naseem",
       "category": "4-Star",
       "district": "Al Naseem"
     },
     {
-      "id": "hotel_81",
+      "id": "hotel_82",
       "name": "Diyar Al Deafah Hotel",
       "category": "4-Star",
       "district": "Central"
     },
     {
-      "id": "hotel_82",
+      "id": "hotel_83",
       "name": "Dallah Ajyad Hotel",
       "category": "4-Star",
       "district": "Ajyad"
     },
     {
-      "id": "hotel_83",
+      "id": "hotel_84",
       "name": "Hotel Deafat Al Rajaa",
       "category": "4-Star",
       "district": "Central"
     },
     {
-      "id": "hotel_84",
+      "id": "hotel_85",
       "name": "Zwar Al Bait Hotel",
       "category": "4-Star",
       "district": "Central"
     },
     {
-      "id": "hotel_85",
+      "id": "hotel_86",
       "name": "Nozol Bakkah Hotel",
       "category": "4-Star",
       "district": "Central"
     },
     {
-      "id": "hotel_86",
-      "name": "Durrat Al Masafi Hotel",
-      "category": "4-Star",
-      "district": "Central"
-    },
-    {
       "id": "hotel_87",
-      "name": "Sama Al Diyafah Hotel",
+      "name": "Makarim Al Bait Hotel",
       "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_88",
-      "name": "Dorrat Al Salheen Apartments 1",
+      "name": "Durrat Al Masafi Hotel",
       "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_89",
-      "name": "Alnahdi Furnished Apart",
+      "name": "Sama Al Diyafah Hotel",
       "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_90",
-      "name": "Al Fosool Ajyad",
+      "name": "Dorrat Al Salheen Apartments 1",
       "category": "4-Star",
-      "district": "Ajyad"
+      "district": "Central"
     },
     {
       "id": "hotel_91",
-      "name": "Al Rayyan Towers Hotel Meccan",
+      "name": "Alnahdi Furnished Apart",
       "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_92",
-      "name": "Reef Global Hotel",
+      "name": "Al Fosool Ajyad",
       "category": "4-Star",
-      "district": "Central"
+      "district": "Ajyad"
     },
     {
       "id": "hotel_93",
-      "name": "Al Massa Dar Al Fayzeen",
+      "name": "Al Rayyan Towers Hotel Meccan",
       "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_94",
-      "name": "Snood Al Salam",
+      "name": "Reef Global Hotel",
       "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_95",
-      "name": "Dar Al Raies Hotel",
+      "name": "Al Massa Dar Al Fayzeen",
       "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_96",
-      "name": "Mercure Makkah Aziziah",
+      "name": "Snood Al Salam",
       "category": "4-Star",
-      "district": "Al Aziziah"
+      "district": "Central"
     },
     {
       "id": "hotel_97",
-      "name": "Elaf Bakkah Hotel",
+      "name": "Dar Al Raies Hotel",
       "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_98",
-      "name": "Ajwad Ajyad Hotel",
+      "name": "Mercure Makkah Aziziah",
       "category": "4-Star",
-      "district": "Ajyad"
+      "district": "Al Aziziah"
     },
     {
       "id": "hotel_99",
-      "name": "Ayat Alwafa",
+      "name": "ELAF BAKKAH HOTEL",
       "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_100",
-      "name": "Al Olayan Plaza Hotel",
+      "name": "Ajwad Ajyad Hotel",
+      "category": "4-Star",
+      "district": "Ajyad"
+    },
+    {
+      "id": "hotel_101",
+      "name": "ayat alwafa",
       "category": "4-Star",
       "district": "Central"
     },
     {
-      "id": "hotel_101",
-      "name": "OYO 242 Al Ahlam Resort Al Leith",
+      "id": "hotel_102",
+      "name": "AL Olayan Plaza Hotel",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_103",
+      "name": "Oyo 242 Al Ahlam Resort Al Leith",
       "category": "4-Star",
       "district": "Al Leith"
     },
     {
-      "id": "hotel_102",
-      "name": "DoubleTree by Hilton Makkah Jabal Omar",
+      "id": "hotel_104",
+      "name": "Doubletree By Hilton Makkah Jabal Omar",
       "category": "4-Star",
       "district": "Jabal Omar"
     },
     {
-      "id": "hotel_103",
+      "id": "hotel_105",
       "name": "Emaar Elite Hotel",
       "category": "4-Star",
       "district": "Central"
     },
     {
-      "id": "hotel_104",
+      "id": "hotel_106",
       "name": "Al Olayan Golden Hotel",
       "category": "4-Star",
       "district": "Central"
     },
     {
-      "id": "hotel_105",
+      "id": "hotel_107",
       "name": "Emaar Al Noor",
       "category": "4-Star",
       "district": "Central"
     },
     {
-      "id": "hotel_106",
-      "name": "Al Olayan Palace",
+      "id": "hotel_108",
+      "name": "AL Olayan Palace",
       "category": "4-Star",
       "district": "Central"
     },
     {
-      "id": "hotel_107",
+      "id": "hotel_109",
       "name": "Palestine Hotel Makkah",
       "category": "4-Star",
       "district": "Central"
     },
     {
-      "id": "hotel_108",
+      "id": "hotel_110",
       "name": "Mawasim Ajyad",
       "category": "4-Star",
       "district": "Ajyad"
     },
     {
-      "id": "hotel_109",
+      "id": "hotel_111",
       "name": "Nawazi Tower Hotel",
       "category": "4-Star",
       "district": "Central"
     },
     {
-      "id": "hotel_110",
+      "id": "hotel_112",
       "name": "Worth Elite Hotel",
       "category": "4-Star",
       "district": "Central"
     },
     {
-      "id": "hotel_111",
+      "id": "hotel_113",
       "name": "Al Kiswa Towers Hotel",
       "category": "4-Star",
       "district": "Central"
     },
     {
-      "id": "hotel_112",
+      "id": "hotel_114",
       "name": "Arak Ajyad Hotel",
       "category": "4-Star",
       "district": "Ajyad"
     },
     {
-      "id": "hotel_113",
+      "id": "hotel_115",
       "name": "Batoul Ajyad Hotel",
       "category": "4-Star",
       "district": "Ajyad"
     },
     {
-      "id": "hotel_114",
+      "id": "hotel_116",
       "name": "Alqimmah Attlas Three",
       "category": "4-Star",
       "district": "Central"
     },
     {
-      "id": "hotel_115",
+      "id": "hotel_117",
       "name": "Barakat Burhan Hotel",
       "category": "4-Star",
       "district": "Central"
     },
     {
-      "id": "hotel_116",
+      "id": "hotel_118",
       "name": "Saja Makkah",
       "category": "4-Star",
       "district": "Central"
     },
     {
-      "id": "hotel_117",
-      "name": "Four Points by Sheraton Makkah Al Naseem",
+      "id": "hotel_119",
+      "name": "Four Points By Sheraton Makkah Al Naseem",
       "category": "4-Star",
       "district": "Al Naseem"
     },
     {
-      "id": "hotel_118",
-      "name": "Grand Al Massa Hotel",
-      "category": "4-Star",
-      "district": "Central"
-    },
-    {
-      "id": "hotel_119",
-      "name": "Concorde Mina Hotel",
-      "category": "4-Star",
-      "district": "Mina"
-    },
-    {
       "id": "hotel_120",
-      "name": "Nawazi Watheer Hotel",
+      "name": "Grand Al MASSA HOTEL",
       "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_121",
+      "name": "Concorde Mina Hotel",
+      "category": "4-Star",
+      "district": "Mina"
+    },
+    {
+      "id": "hotel_122",
+      "name": "Nawazi Watheer Hotel",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_123",
       "name": "Meezab Aldeyafah Hotel",
       "category": "4-Star",
       "district": "Central"
     },
     {
-      "id": "hotel_122",
+      "id": "hotel_124",
       "name": "Best Western Ajyad Makkah",
       "category": "4-Star",
       "district": "Ajyad"
     },
     {
-      "id": "hotel_123",
-      "name": "Askant Al Hafayer (ex Manaret Al Tawhid)",
-      "category": "4-Star",
-      "district": "Central"
-    },
-    {
-      "id": "hotel_124",
-      "name": "Mira Awan Hotel",
-      "category": "4-Star",
-      "district": "Central"
-    },
-    {
       "id": "hotel_125",
-      "name": "Royal Al Mashaer Hotel",
+      "name": "Askant Al Hafayer ( ex Manaret Al Tawhid )",
       "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_126",
-      "name": "Emaar Legend Hotel",
+      "name": "Mira Awan Hotel",
       "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_127",
-      "name": "Violet Al Azizia Hotel",
+      "name": "Royal Al Mashaer Hotel",
       "category": "4-Star",
-      "district": "Al Aziziah"
+      "district": "Central"
     },
     {
       "id": "hotel_128",
-      "name": "Silver Tulip Hotel",
+      "name": "Emaar Legend Hotel",
       "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_129",
+      "name": "Violet Al Azizia Hotel",
+      "category": "4-Star",
+      "district": "Al Aziziah"
+    },
+    {
+      "id": "hotel_130",
+      "name": "Silver Tulip Hotel",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_131",
       "name": "Violet Al Shisha Hotel",
       "category": "4-Star",
       "district": "Central"
     },
     {
-      "id": "hotel_130",
+      "id": "hotel_132",
       "name": "Novotel Thakher Makkah Hotel",
       "category": "4-Star",
       "district": "Thakher"
     },
     {
-      "id": "hotel_131",
+      "id": "hotel_133",
       "name": "Wirgan Hotel Al Azizyah Makkah",
       "category": "4-Star",
       "district": "Al Aziziah"
     },
     {
-      "id": "hotel_132",
+      "id": "hotel_134",
       "name": "Abeer Al Azizia Hotel",
       "category": "4-Star",
       "district": "Al Aziziah"
     },
     {
-      "id": "hotel_133",
+      "id": "hotel_135",
       "name": "Dar Al Wafdain Hotel",
       "category": "4-Star",
       "district": "Central"
     },
     {
-      "id": "hotel_134",
-      "name": "Al Mozn Al Motalqa Hotel",
-      "category": "4-Star",
-      "district": "Central"
-    },
-    {
-      "id": "hotel_135",
-      "name": "Al Riffa Rii Bakhsh Hotel",
-      "category": "4-Star",
-      "district": "Central"
-    },
-    {
       "id": "hotel_136",
-      "name": "Mira El Rawdah",
+      "name": "Al mozn al motalqa hotel",
       "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_137",
-      "name": "Mohammad Faleh Aljabri Hotel",
+      "name": "Al Riffa Rii Bakhsh Hotel",
       "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_138",
-      "name": "Al Wafideen Hotel",
+      "name": "Mira el rawdah",
       "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_139",
-      "name": "Al-Zaer Jarwal Hotel",
+      "name": "Mohammad Faleh Aljabri Hotel",
       "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_140",
-      "name": "Areej Alwafaa",
+      "name": "Al Wafideen Hotel",
       "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_141",
-      "name": "Rawabi Emirates",
+      "name": "Al-Zaer Jarwal Hotel",
       "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_142",
-      "name": "Kadi Hijra Makkah",
+      "name": "Areej Alwafaa",
       "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_143",
-      "name": "Razana Al Rowdah",
+      "name": "Rawabi Emirates",
       "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_144",
-      "name": "Arkan AlSafa",
+      "name": "Kadi Hijra Makkah",
       "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_145",
-      "name": "Ramada by Wyndham Mekkah Al Rawda",
+      "name": "Razana Al Rowdah",
       "category": "4-Star",
-      "district": "Al Rawda"
+      "district": "Central"
     },
     {
       "id": "hotel_146",
-      "name": "Narjes Al Hadeqa Hotel",
+      "name": "Arkan AlSafa",
       "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_147",
-      "name": "Albu Towers Hotel",
+      "name": "Ramada By Wyndham Mekkah Al Rawda",
       "category": "4-Star",
-      "district": "Central"
+      "district": "Al Rawda"
     },
     {
       "id": "hotel_148",
-      "name": "Zahrat Al Saad Hotel 3",
+      "name": "Narjes Al Hadeqa Hotel",
       "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_149",
-      "name": "Jiwar Al Bait Hotel Makkah",
+      "name": "Albu Towers Hotel",
       "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_150",
-      "name": "Aljoud Residences Hotel",
+      "name": "Zahrat Al Saad Hotel 3",
       "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_151",
-      "name": "Nora Abdullah Hawas",
-      "category": "3-Star",
+      "name": "Jiwar Al Bait Hotel Makkah",
+      "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_152",
-      "name": "Afraa Hotel",
-      "category": "3-Star",
+      "name": "ALJOUD RESIDENCES HOTEL",
+      "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_153",
-      "name": "OYO 375 Deyar Alrawada Hotel",
-      "category": "3-Star",
+      "name": "Dar Bonian 2 Hotels",
+      "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_154",
-      "name": "Emaar Afaq Al Sud",
-      "category": "3-Star",
+      "name": "Zahrat Al Saad Hotel 4",
+      "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_155",
-      "name": "Al Ahbab Hotel",
-      "category": "3-Star",
+      "name": "Refaa Al Saad Hotel",
+      "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_156",
-      "name": "Hibatullah Hotel Makkah (managed by AccorHotels)",
-      "category": "3-Star",
+      "name": "Sari Kuday Hotel",
+      "category": "4-Star",
       "district": "Central"
     },
     {
       "id": "hotel_157",
-      "name": "Durrat Mina Hotel",
-      "category": "3-Star",
-      "district": "Mina"
+      "name": "Mazaya Hotel",
+      "category": "4-Star",
+      "district": "Central"
     },
     {
       "id": "hotel_158",
-      "name": "Refaaf Al Azizia Hotel",
-      "category": "3-Star",
+      "name": "Azka Al Maqam Hotel",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_159",
+      "name": "Land Premium Hotel 1 (ex Al Ardh Al Motamayza Hotel)",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_160",
+      "name": "Badr Alazizyah",
+      "category": "4-Star",
       "district": "Al Aziziah"
     },
     {
-    "id": "hotel_159",
-    "name": "Al Masah Al Makeya Hotel",
-    "category": "3-Star",
-    "district": "Al Aziziah"
-  },
-  {
-    "id": "hotel_160",
-    "name": "Al Olayan Royal Hotel",
-    "category": "3-Star",
-    "district": "Ajyad"
-  },
-  {
-    "id": "hotel_161",
-    "name": "Shaza Al Wasem 3",
-    "category": "3-Star",
-    "district": "Al Misfalah"
-  },
-  {
-    "id": "hotel_162",
-    "name": "Makam Plaza",
-    "category": "3-Star",
-    "district": "Ajyad"
-  },
-  {
-    "id": "hotel_163",
-    "name": "Abiat Alnasem",
-    "category": "2-Star",
-    "district": "Al Aziziah"
-  },
-  {
-    "id": "hotel_164",
-    "name": "Al Fajr Al Badea Hotel",
-    "category": "3-Star",
-    "district": "Ajyad"
-  },
-  {
-    "id": "hotel_165",
-    "name": "Manazil Mina Hotel",
-    "category": "3-Star",
-    "district": "Mina"
-  },
-  {
-    "id": "hotel_166",
-    "name": "Al Eairy Apartments Makkah 3",
-    "category": "2-Star",
-    "district": "Al Aziziah"
-  },
-  {
-    "id": "hotel_167",
-    "name": "Braira Ajyad Hotel",
-    "category": "4-Star",
-    "district": "Ajyad"
-  },
-  {
-    "id": "hotel_168",
-    "name": "Dar Al Hijra Intercontinental",
-    "category": "5-Star",
-    "district": "Central Area"
-  },
-  {
-    "id": "hotel_169",
-    "name": "Elaf Meshal Hotel Makkah",
-    "category": "3-Star",
-    "district": "Ajyad"
-  },
-  {
-    "id": "hotel_170",
-    "name": "Eiman Royal Hotel",
-    "category": "4-Star",
-    "district": "Ajyad"
-  },
-  {
-    "id": "hotel_171",
-    "name": "Al Andalus Hotel",
-    "category": "3-Star",
-    "district": "Al Aziziah"
-  },
-  {
-    "id": "hotel_172",
-    "name": "Elaf Ajyad Hotel",
-    "category": "4-Star",
-    "district": "Ajyad"
-  },
-  {
-    "id": "hotel_173",
-    "name": "Dar Al Tawhid Hotel",
-    "category": "5-Star",
-    "district": "Haram"
-  },
-  {
-    "id": "hotel_174",
-    "name": "Makkah Towers",
-    "category": "5-Star",
-    "district": "Haram"
-  },
-  {
-    "id": "hotel_175",
-    "name": "Makarim Mina",
-    "category": "3-Star",
-    "district": "Mina"
-  },
-  {
-    "id": "hotel_176",
-    "name": "Al Kiswah Towers",
-    "category": "3-Star",
-    "district": "Jarwal"
-  },
-  {
-    "id": "hotel_177",
-    "name": "Braira Al Azizia Hotel",
-    "category": "4-Star",
-    "district": "Al Aziziah"
-  },
-  {
-    "id": "hotel_178",
-    "name": "Elaf Grand Hotel",
-    "category": "5-Star",
-    "district": "Ajyad"
-  },
-  {
-    "id": "hotel_179",
-    "name": "Al Masa Hotel",
-    "category": "3-Star",
-    "district": "Al Aziziah"
-  },
-  {
-    "id": "hotel_180",
-    "name": "Rawabi Hotel",
-    "category": "3-Star",
-    "district": "Al Aziziah"
-  },
-  {
-    "id": "hotel_181",
-    "name": "Anwar Al Deafah Hotel",
-    "category": "3-Star",
-    "district": "Al Aziziah"
-  },
-  {
-    "id": "hotel_182",
-    "name": "Al Marwaa Residence",
-    "category": "3-Star",
-    "district": "Ajyad"
-  },
-  {
-    "id": "hotel_183",
-    "name": "Dar Al Ghufran Hotel",
-    "category": "5-Star",
-    "district": "Haram"
-  },
-  {
-    "id": "hotel_184",
-    "name": "Elaf Taiba Hotel",
-    "category": "4-Star",
-    "district": "Central Area"
-  },
-  {
-    "id": "hotel_185",
-    "name": "Sama Al Deafah Hotel",
-    "category": "3-Star",
-    "district": "Al Aziziah"
-  },
-  {
-    "id": "hotel_186",
-    "name": "Al Jawhara Hotel",
-    "category": "3-Star",
-    "district": "Al Aziziah"
-  },
-  {
-    "id": "hotel_187",
-    "name": "Mina Hotel",
-    "category": "3-Star",
-    "district": "Mina"
-  },
-  {
-    "id": "hotel_188",
-    "name": "Makkah Grand Coral Hotel",
-    "category": "4-Star",
-    "district": "Al Aziziah"
-  },
-  {
-    "id": "hotel_189",
-    "name": "Crystal Palace Hotel",
-    "category": "3-Star",
-    "district": "Al Aziziah"
-  },
-  {
-    "id": "hotel_190",
-    "name": "Makarim Annakheel Village",
-    "category": "4-Star",
-    "district": "North Obhur"
-  },
-  {
-    "id": "hotel_191",
-    "name": "Al Seteen Palace Hotel",
-    "category": "3-Star",
-    "district": "Al Aziziah"
-  },
-  {
-    "id": "hotel_192",
-    "name": "Elaf Al Mashaer Hotel",
-    "category": "5-Star",
-    "district": "Ajyad"
-  },
-  {
-    "id": "hotel_193",
-    "name": "Dar Al Shohadaa Hotel",
-    "category": "4-Star",
-    "district": "Al Misfalah"
-  },
-  {
-    "id": "hotel_194",
-    "name": "Makkah Hilton Hotel",
-    "category": "5-Star",
-    "district": "Haram"
-  },
-  {
-    "id": "hotel_195",
-    "name": "Al Dar Hotel",
-    "category": "3-Star",
-    "district": "Al Aziziah"
-  },
-  {
-    "id": "hotel_196",
-    "name": "Braira Al Aziziah Hotel",
-    "category": "4-Star",
-    "district": "Al Aziziah"
-  },
-  {
-    "id": "hotel_197",
-    "name": "Elaf Al Haram Hotel",
-    "category": "4-Star",
-    "district": "Haram"
-  },
-  {
-    "id": "hotel_198",
-    "name": "Al Marwah Hotel",
-    "category": "3-Star",
-    "district": "Ajyad"
-  },
-  {
-    "id": "hotel_199",
-    "name": "Dar Al Noor Hotel",
-    "category": "3-Star",
-    "district": "Ajyad"
-  },
-  {
-    "id": "hotel_200",
-    "name": "Elaf Meshal Al Salam Hotel",
-    "category": "3-Star",
-    "district": "Ajyad"
-  },
-  {
-    "id": "hotel_201",
-    "name": "Al Kiswah Hotel",
-    "category": "3-Star",
-    "district": "Jarwal"
-  },
-  {
-    "id": "hotel_202",
-    "name": "Makkah Makarim Hotel",
-    "category": "5-Star",
-    "district": "Ajyad"
-  },
-  {
-    "id": "hotel_203",
-    "name": "Elaf Al Mashaer Grand Hotel",
-    "category": "5-Star",
-    "district": "Ajyad"
-  },
-  {
-    "id": "hotel_204",
-    "name": "Al Diyar Hotel",
-    "category": "3-Star",
-    "district": "Ajyad"
-  },
-  {
-    "id": "hotel_205",
-    "name": "Braira Golden Tulip Hotel",
-    "category": "4-Star",
-    "district": "Al Aziziah"
-  },
-  {
-    "id": "hotel_206",
-    "name": "Elaf Kinda Hotel",
-    "category": "4-Star",
-    "district": "Haram"
-  },
-  {
-    "id": "hotel_207",
-    "name": "Al Marwah Residence Hotel",
-    "category": "3-Star",
-    "district": "Ajyad"
-  },
-  {
-    "id": "hotel_208",
-    "name": "Dar Al Hijra Hotel",
-    "category": "4-Star",
-    "district": "Central Area"
-  },
-  {
-    "id": "hotel_209",
-    "name": "Elaf Al Andalus Hotel",
-    "category": "4-Star",
-    "district": "Ajyad"
-  },
-  {
-    "id": "hotel_210",
-    "name": "Al Masa Grand Hotel",
-    "category": "4-Star",
-    "district": "Al Aziziah"
-  },
-  {
-    "id": "hotel_211",
-    "name": "Braira Residence Hotel",
-    "category": "4-Star",
-    "district": "Al Aziziah"
-  },
-  {
-    "id": "hotel_212",
-    "name": "Elaf Taiba Grand Hotel",
-    "category": "5-Star",
-    "district": "Central Area"
-  },
-  {
-    "id": "hotel_213",
-    "name": "Al Marwah Palace Hotel",
-    "category": "4-Star",
-    "district": "Ajyad"
-  },
-  {
-    "id": "hotel_214",
-    "name": "Dar Al Ghufran Grand Hotel",
-    "category": "5-Star",
-    "district": "Haram"
-  },
-  {
-    "id": "hotel_215",
-    "name": "Elaf Meshal Palace Hotel",
-    "category": "4-Star",
-    "district": "Ajyad"
-  },
-  {
-    "id": "hotel_216",
-    "name": "Al Jawhara Grand Hotel",
-    "category": "4-Star",
-    "district": "Al Aziziah"
-  },
-  {
-    "id": "hotel_217",
-    "name": "Braira Palace Hotel",
-    "category": "4-Star",
-    "district": "Al Aziziah"
-  },
-  {
-    "id": "hotel_218",
-    "name": "Elaf Al Haram Grand Hotel",
-    "category": "5-Star",
-    "district": "Haram"
-  }
+      "id": "hotel_161",
+      "name": "Violet Hotel 2",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_162",
+      "name": "Al Ebaa Hotel",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_163",
+      "name": "Manar Altawhed",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_164",
+      "name": "Rawabi Mina Hotel",
+      "category": "4-Star",
+      "district": "Mina"
+    },
+    {
+      "id": "hotel_165",
+      "name": "Mohammed Abdullah Saleh Gamas hotel",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_166",
+      "name": "OYO 423 Rehab Al Marwa Hotel 3",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_167",
+      "name": "Royal Majestic Hotel Makkah",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_168",
+      "name": "Al Rehaba Al Makkiah Hotel",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_169",
+      "name": "Dream Zone Hotel",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_170",
+      "name": "Harith Muhammad Baharith Hotel",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_171",
+      "name": "Al Shahba Hotel Makkah",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_172",
+      "name": "MANARAT GROL HOTELCOMPANY OAN PERSON",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_173",
+      "name": "Al Fajer Al Badia Hotel 4",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_174",
+      "name": "Manazeli al fatah",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_175",
+      "name": "arqah massah hotels",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_176",
+      "name": "Jewel Quraish Hotel 1",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_177",
+      "name": "Al Manar Hotel",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_178",
+      "name": "Sari Mina Hotel",
+      "category": "4-Star",
+      "district": "Mina"
+    },
+    {
+      "id": "hotel_179",
+      "name": "Jawhara al Sondus Hotel",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_180",
+      "name": "Anwar Almanarat Al Zahbya",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_181",
+      "name": "Alzeydi Ajyad Hotel",
+      "category": "4-Star",
+      "district": "Ajyad"
+    },
+    {
+      "id": "hotel_182",
+      "name": "Al-Balad At-Tayib Hotel",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_183",
+      "name": "Al Khaimah Hotel",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_184",
+      "name": "SAMA AL-KHAIR HOTEL",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_185",
+      "name": "Rakhaa Al Deafah",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_186",
+      "name": "Al Azhar Palace Hotel",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_187",
+      "name": "New HODHOD Hotel",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_188",
+      "name": "Manar ElAzhar Hotel",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_189",
+      "name": "Tara hotel",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_190",
+      "name": "Refadah Hotel",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_191",
+      "name": "Manar Almashaer",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_192",
+      "name": "Courtyard Makkah",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_193",
+      "name": "THARAWAT NABAA MAKKAH HOTEl",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_194",
+      "name": "Jawhrat Diar Almat",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_195",
+      "name": "Zaha Al-Medina",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_196",
+      "name": "Al Tayseer Towers Hotel",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_197",
+      "name": "Palette Luxury MAS Hotel",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_198",
+      "name": "Park Inn by Radisson Makkah Thakher Alsharqi",
+      "category": "4-Star",
+      "district": "Thakher"
+    },
+    {
+      "id": "hotel_199",
+      "name": "Park Inn by Radisson Makkah Thakher Al Gharbi",
+      "category": "4-Star",
+      "district": "Thakher"
+    },
+    {
+      "id": "hotel_200",
+      "name": "NOVOTEL RESIDENCES MAKKAH THAKHER CITY",
+      "category": "4-Star",
+      "district": "Thakher"
+    },
+    {
+      "id": "hotel_201",
+      "name": "Courtyard Makkah",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_202",
+      "name": "Aljewar Tower Hotel",
+      "category": "4-Star",
+      "district": "Central"
+    },
+    {
+      "id": "hotel_203",
+      "name": "Qasr Al sahab Makkah",
+      "category": "4-Star",
+      "district": "Central"
+    }, 
+
+  { "id": "hotel_204", "name": "Nora Abdullah Hawas", "category": "3-Star", "district": "Al Aziziyah" },
+  { "id": "hotel_205", "name": "Afraa Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_206", "name": "OYO 375 Deyar Alrawada Hotel", "category": "3-Star", "district": "Al Aziziyah" },
+  { "id": "hotel_207", "name": "Emaar Afaq Al Sud", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_208", "name": "Al ahbab hotel", "category": "3-Star", "district": "Al Aziziyah" },
+  { "id": "hotel_209", "name": "Hibatullah Hotel Makkah managed by Accorhotels", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_210", "name": "Durrat Mina Hotel", "category": "3-Star", "district": "Mina" },
+  { "id": "hotel_211", "name": "Refaaf Al Azizia Hotel", "category": "3-Star", "district": "Al Aziziyah" },
+  { "id": "hotel_212", "name": "Al Masah Al Makeya Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_213", "name": "Al Olayan Royal Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_214", "name": "Shaza Al Wasem 3", "category": "3-Star", "district": "Al Aziziyah" },
+  { "id": "hotel_215", "name": "Makam Plaza", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_216", "name": "abiat alnasem", "category": "3-Star", "district": "Al Aziziyah" },
+  { "id": "hotel_217", "name": "Al Fajr Al Badea 1 Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_218", "name": "Masaken Al-Hyat", "category": "3-Star", "district": "Al Aziziyah" },
+  { "id": "hotel_219", "name": "Al Rahabah Al Makkyah 3", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_220", "name": "Yasmin Al Majd Hotel", "category": "3-Star", "district": "Ajyad" },
+  { "id": "hotel_221", "name": "Rawdat Al Khalil Hotel", "category": "3-Star", "district": "Al Khalil" },
+  { "id": "hotel_222", "name": "Maysan Al-Mashaer ex (Rayanah Grand Plaza)", "category": "3-Star", "district": "Al Mashaer" },
+  { "id": "hotel_223", "name": "Shaza Al Wasem 4", "category": "3-Star", "district": "Al Aziziyah" },
+  { "id": "hotel_224", "name": "Najmat Ajyaad", "category": "3-Star", "district": "Ajyad" },
+  { "id": "hotel_225", "name": "MOTHMERAH ALSAD HOTEL", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_226", "name": "Zamazem Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_227", "name": "Jawharat al Olla", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_228", "name": "Masaa Wadi hotel", "category": "3-Star", "district": "Al Aziziyah" },
+  { "id": "hotel_229", "name": "Al Rawda Hotel - Almassa Hotels", "category": "3-Star", "district": "Al Aziziyah" },
+  { "id": "hotel_230", "name": "Mubarak1", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_231", "name": "Al Joud Boutique Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_232", "name": "Alkiram hotel", "category": "3-Star", "district": "Al Aziziyah" },
+  { "id": "hotel_233", "name": "Nada Al Majd Hotel", "category": "3-Star", "district": "Ajyad" },
+  { "id": "hotel_234", "name": "Abraj Maad", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_235", "name": "Jadat Alkhalil Hotel", "category": "3-Star", "district": "Al Khalil" },
+  { "id": "hotel_236", "name": "Al Ruqy Al Kayed (Golden Najd)", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_237", "name": "Retaj Albayt Suites", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_238", "name": "rawahel alhuda united hotel", "category": "3-Star", "district": "Al Aziziyah" },
+  { "id": "hotel_239", "name": "Al Jawhara Tower Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_240", "name": "Al Roshad Al Majd Hotel", "category": "3-Star", "district": "Ajyad" },
+  { "id": "hotel_241", "name": "ritaj al hayat otel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_242", "name": "Aemadat Al Zahab Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_243", "name": "Al-Jazeerah Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_244", "name": "sarh alorouba hotels", "category": "3-Star", "district": "Al Aziziyah" },
+  { "id": "hotel_245", "name": "Al Wafadah Al Raqyah \"Hospitality Meccan\"", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_246", "name": "Dar Al Eiman Al Sud Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_247", "name": "Malak Ajyad", "category": "3-Star", "district": "Ajyad" },
+  { "id": "hotel_248", "name": "Aknaf Diamond Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_249", "name": "Nawarat Shams 2", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_250", "name": "Mohammed Saif Al-Yamani", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_251", "name": "White Rose Hotel Makkah", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_252", "name": "Emaar Andalusia", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_253", "name": "Emaar Al Khalil", "category": "3-Star", "district": "Al Khalil" },
+  { "id": "hotel_254", "name": "Al Massa Bader Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_255", "name": "Al Tawfiq Plaza Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_256", "name": "Nasamat Alkhayr Hotel", "category": "3-Star", "district": "Al Aziziyah" },
+  { "id": "hotel_257", "name": "Harith Mohammed Saleh Bahareth Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_258", "name": "Majed Al Mohajreen Hotel EX ( Al Nosour Al Mohajreen Hotel)", "category": "3-Star", "district": "Al Mohajreen" },
+  { "id": "hotel_259", "name": "Osturat Emaar", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_260", "name": "Sunrise Ajyad Hotel", "category": "3-Star", "district": "Ajyad" },
+  { "id": "hotel_261", "name": "OYO 616 Afaq Al Mashaer", "category": "3-Star", "district": "Al Mashaer" },
+  { "id": "hotel_262", "name": "Rawabi Al Salam Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_263", "name": "Manarat Gaza Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_264", "name": "Noor Al-Salah Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_265", "name": "Elaf AL-maqam Hotel Makkah Ajyad", "category": "3-Star", "district": "Ajyad" },
+  { "id": "hotel_266", "name": "Park Royal - Ex. Rehab Almultaqa", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_267", "name": "Snood Alazama Hotel", "category": "3-Star", "district": "Al Aziziyah" },
+  { "id": "hotel_268", "name": "EMAAR INTERNATIONAL", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_269", "name": "Land Premium Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_270", "name": "Bright Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_271", "name": "Rabigh Park Hotel", "category": "3-Star", "district": "Rabigh" },
+  { "id": "hotel_272", "name": "Anwar Al Diyafah Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_273", "name": "Beyab Al-Azizeyya", "category": "3-Star", "district": "Al Aziziyah" },
+  { "id": "hotel_274", "name": "Durrah Dar Al Eiman Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_275", "name": "Nawazi Ajiad Hotel", "category": "3-Star", "district": "Ajyad" },
+  { "id": "hotel_276", "name": "Karim Makkah Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_277", "name": "Oyo 373 Deyar Al Rashed Hotel Apartments", "category": "3-Star", "district": "Al Aziziyah" },
+  { "id": "hotel_278", "name": "Al Hidayah towers Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_279", "name": "Roots Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_280", "name": "Ibis Styles Makkah", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_281", "name": "Wahat Almisk Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_282", "name": "AlKhasvi Diamond Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_283", "name": "abdulhafez abdullah sulman humaidan", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_284", "name": "Rehab Al Marwa Hotel 2", "category": "3-Star", "district": "Al Marwa" },
+  { "id": "hotel_285", "name": "Rehab Al Mahbba Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_286", "name": "Dar Al Sharia", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_287", "name": "Ramada zad palace", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_288", "name": "Nasamat Ajiad", "category": "3-Star", "district": "Ajyad" },
+  { "id": "hotel_289", "name": "Naif Akbar Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_290", "name": "Mnazil Alhor 1", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_291", "name": "Makarem Al Shorofat", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_292", "name": "Methaq Alhuda Hotel", "category": "3-Star", "district": "Al Aziziyah" },
+  { "id": "hotel_293", "name": "Manaret Al Mashaer Hotel", "category": "3-Star", "district": "Al Mashaer" },
+  { "id": "hotel_294", "name": "Alkahir Tower", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_295", "name": "Anwar Al Misk Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_296", "name": "orchid saray 2", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_297", "name": "Jawahert Al Adel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_298", "name": "Besan Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_299", "name": "Manart Al Misk Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_300", "name": "Safwat Deafah Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_301", "name": "NAJMAT AL MASHAER", "category": "3-Star", "district": "Al Mashaer" },
+  { "id": "hotel_302", "name": "Rehab Al Akheer", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_303", "name": "Ramada By Wyndham Mekkah Al Tayseer", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_304", "name": "Al Naseem Mawaddah", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_305", "name": "al Rohaniah", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_306", "name": "ALAYYAM CORPORATION FOR HOTEL OPERATION", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_307", "name": "Araek AI Rehab Company For Hotels Operatik", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_308", "name": "Malak AlSafwa Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_309", "name": "makarim dyafat albeet one", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_310", "name": "Jawharat Al Mashaeir Hotel", "category": "3-Star", "district": "Al Mashaer" },
+  { "id": "hotel_311", "name": "Zewar Al Mashaer Al Qasr Hotel", "category": "3-Star", "district": "Al Mashaer" },
+  { "id": "hotel_312", "name": "Al Fajr Al Badea Hotel 3", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_313", "name": "mnair alosoul hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_314", "name": "Tharawat Al Khalil Hotel", "category": "3-Star", "district": "Al Khalil" },
+  { "id": "hotel_315", "name": "Al Raya Mubarak Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_316", "name": "Zahrat Al Saad 6 Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_317", "name": "MASARAT AL-KHALIL", "category": "3-Star", "district": "Al Khalil" },
+  { "id": "hotel_318", "name": "Loloat Alnwair", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_319", "name": "LU LU AL TAWHEED", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_320", "name": "Noor al Misk", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_321", "name": "Zenat AlHaram", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_322", "name": "Mather Al Eiman Ajyad hotel", "category": "3-Star", "district": "Ajyad" },
+  { "id": "hotel_323", "name": "Nma Mawdah", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_324", "name": "Knoz alhafair", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_325", "name": "Bader al Hadeth Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_326", "name": "jwaharat al nwaer 2", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_327", "name": "Zhrat Saad", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_328", "name": "Abeer Al Deafah", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_329", "name": "Danat Al Diafa", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_330", "name": "Osccon hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_331", "name": "Rawabi Zamzam", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_332", "name": "muzayen almaqati alotaibi hotel shabab", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_333", "name": "Hotel Miar Moyyassar", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_334", "name": "eurasia", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_335", "name": "masakin alhijaz aldahabia", "category": "3-Star", "district": "Al Hijaz" },
+  { "id": "hotel_336", "name": "JAWHARAT AL TAWHEED HOTEL", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_337", "name": "almajd alrabiah trading co ltd", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_338", "name": "Safwat Al Bait Al Mahbas", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_339", "name": "Star Misfalah Hotel", "category": "3-Star", "district": "Misfalah" },
+  { "id": "hotel_340", "name": "Wahet Al Diyafah (ex. Wahet Al Deafah)", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_341", "name": "ALHIJRA AL-MASI HOTEL", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_342", "name": "Naseem Al-Hadigah", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_343", "name": "Adel Amin Fatani Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_344", "name": "Nasmat Makkah", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_345", "name": "Rose Almashaeir Hotel", "category": "3-Star", "district": "Al Mashaer" },
+  { "id": "hotel_346", "name": "Al Fajar Al Badie 6", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_347", "name": "Jayan Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_348", "name": "Fal Altaj Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_349", "name": "Qasr Al Sharq", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_350", "name": "Alnajmatain Alfudhiah", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_351", "name": "Hotel Ajwad Al Salam", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_352", "name": "Remas Almajd Hotel", "category": "3-Star", "district": "Ajyad" },
+  { "id": "hotel_353", "name": "Dorat Al Ahabab Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_354", "name": "Zahrat AL Mesyal Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_355", "name": "Adil Ameen Fatani", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_356", "name": "Safwat Ajyad 2", "category": "3-Star", "district": "Ajyad" },
+  { "id": "hotel_357", "name": "Manar Al khair", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_358", "name": "Jood Alqemma", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_359", "name": "Rawshan Al Dar", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_360", "name": "Sama Ajyad", "category": "3-Star", "district": "Ajyad" },
+  { "id": "hotel_361", "name": "Funduq alzaayir khalil alfunduqia", "category": "3-Star", "district": "Al Khalil" },
+  { "id": "hotel_362", "name": "Jouharah Almnshya Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_363", "name": "Hotel Zahrat Al Misfalah", "category": "3-Star", "district": "Misfalah" },
+  { "id": "hotel_364", "name": "Manar Alsheroq Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_365", "name": "Almuhaidb Al Taif", "category": "3-Star", "district": "Al Taif" },
+  { "id": "hotel_366", "name": "Hussein Beyari Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_367", "name": "AlRabih hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_368", "name": "Montana Al Azizia Hotel", "category": "3-Star", "district": "Al Aziziyah" },
+  { "id": "hotel_369", "name": "Nur Al Naseem by Makarem", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_370", "name": "Makarem Al Hijra Hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_371", "name": "Akaaber alhijra hotel", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_372", "name": "Three Points Musalli Makkah", "category": "3-Star", "district": "Central" },
+  { "id": "hotel_373", "name": "Hotel 21 Makkah", "category": "3-Star", "district": "Central" },
+    { "id": "hotel_374", "name": "Sama Al Amany Hotel", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_375", "name": "Blue Coral Hotel Makkah", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_376", "name": "Hotel Barakah Mawaddah", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_377", "name": "Saray Isatanbul 2", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_378", "name": "Hotel Al Nokbha 2", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_379", "name": "Rehab AlJanadriyah Hotel", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_380", "name": "jawharat al sharah", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_381", "name": "Dairy Al Majd Hotel", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_382", "name": "suleiman mussa alolayan hotel", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_383", "name": "Al Azhar al Nozha", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_384", "name": "Al-Fajer Al-Badeea 5", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_385", "name": "Al rakaez Hotel", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_386", "name": "Al Seef Tower Hotel", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_387", "name": "Wahat Al Refaa Hotel", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_388", "name": "Nozhet AlMoshtaqen Hotel", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_389", "name": "Wafaa Al-Ihsan Al-Mansi Group", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_390", "name": "Hotel alshba", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_391", "name": "Al Balad Al Tayeb Ajyad Hotel", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_392", "name": "AL Olayan AL Haram", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_393", "name": "shurfat al alam hotel", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_394", "name": "Shatha Al Wesam Hotel", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_395", "name": "Al Battal Hotel", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_396", "name": "Elaf Ajyad Hotel", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_397", "name": "Sama al Misk hotel", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_398", "name": "Jawhart Almajd Hotels", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_399", "name": "Emaar Al Dewan Al Sud", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_400", "name": "Sarh Al Manama Hotel 6", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_401", "name": "Salam Al Dar Makkah Hotel", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_402", "name": "Al massa Alrawdah", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_403", "name": "Loloat Al Azhar Hotel", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_404", "name": "Jawharat al atheer hotel", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_405", "name": "Al Qasswa Towers Hotel", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_406", "name": "Loaloat Al Tawhid Hotel 2", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_407", "name": "Al Salam Aziziya Resident", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_408", "name": "hotel rose almuzn", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_409", "name": "Hotel Royal Makkah", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_410", "name": "Manart Alshareah", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_411", "name": "Nassmat Aljoree", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_412", "name": "Jaar Albayt", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_413", "name": "Juhani Ajyad Hotel", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_414", "name": "Hotel Areej Al-Falah", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_415", "name": "Nuzalaa B Altahra", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_416", "name": "Zahrat Lavender Hotel", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_417", "name": "Riyadh Al Diyafah Hotel", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_418", "name": "Jawharah Al Hijrah", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_419", "name": "Rafif Bakkah Hotel", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_420", "name": "Souoff Al Shouhada Hotel", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_421", "name": "Muthmirat Jurul Hotel", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_422", "name": "Zahrat Al Saad 5", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_423", "name": "hanen al haia", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_424", "name": "Saraya al sultan", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_425", "name": "Saif Al Majd", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_426", "name": "Shuail Inn Hotel Apartments", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_427", "name": "Abeer Al Fadilah Hotel", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_428", "name": "Safwat Al Khair Hotel", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_429", "name": "AWTAD United Hotel Operatin", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_430", "name": "Al Yusr Royal Hotel", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_431", "name": "Asma Al Safa Hotel", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_432", "name": "Al Sharia Hotel", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_433", "name": "Deyafa al Rahman", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_434", "name": "alosoul almutameazah", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_435", "name": "mujahid alshareef", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_436", "name": "Safoat Alhajaz Hotel", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_437", "name": "Arabian Palm Hotel", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_438", "name": "Diar Al Khalidyya by Park Regis", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_439", "name": "Zelal Al Nozalaa", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_440", "name": "Sedra Hotel", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_441", "name": "Awtad Al Safwah Hotel", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_442", "name": "Al Asool Al Masia", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_443", "name": "Masat Al Majd Hotel", "category": "2-Star", "district": "Makkah" },
+  { "id": "hotel_444", "name": "eida ahmed althabiati", "category": "2-Star", "district": "Makkah" },
+  
+  { "id": "hotel_445", "name": "Abdulhameed Ahmed Saqer", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_446", "name": "Shaza Al-Wisam 2 (Ajyad Al-Sad)", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_447", "name": "Dar Rfah hotel", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_448", "name": "Al Ghadeer Ajyad Hotel", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_449", "name": "Loaloaa Alsharla", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_450", "name": "Shmok Alshala", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_451", "name": "Al Azhar Almassi Hotel", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_452", "name": "Al Nuzha Hotel", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_453", "name": "Al Janadriah Towers Hotel", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_454", "name": "Sarh Almanamah 5", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_455", "name": "Shroq Aldyafah", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_456", "name": "Al Rafedeen Al Masi", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_457", "name": "Masarat al Masher", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_458", "name": "Gamil Abdulltif Boqari", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_459", "name": "Hotel Mada Al Omran 3", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_460", "name": "Wealth Mansheya", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_461", "name": "Jawharat Alnwaier", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_462", "name": "manar al huda", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_463", "name": "Whdat Alreiad", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_464", "name": "Jawharah Dar Aleiman", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_465", "name": "Konouz Al Jazirah", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_466", "name": "Whdat Alreiad 2", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_467", "name": "Zahrat Mina", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_468", "name": "Snabel Al Azhar Hotel", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_469", "name": "Salsabil Hamoda 2", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_470", "name": "Mahmali Mkan", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_471", "name": "Sfer Aldeafh", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_472", "name": "Zhrat Alhateim", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_473", "name": "Borj Al Deyafah (Al Diyafah Tower Hotel)", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_474", "name": "Salsabeel Hammudah", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_475", "name": "Wardat Quraish", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_476", "name": "Taj Alkhalil", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_477", "name": "Tharawat Alhuda", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_478", "name": "Joahrat Albait", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_479", "name": "Sharia Tower", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_480", "name": "Ahda Alwesam", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_481", "name": "Sharia", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_482", "name": "Laba Darana", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_483", "name": "Albuda", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_484", "name": "Abdul Malik Al Barakati Hotel", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_485", "name": "Zwar Al-Haramain Hotel", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_486", "name": "Meerat Ajyaad", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_487", "name": "STAR MISFALAH 2", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_488", "name": "Shomookh Saad hotel", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_489", "name": "zamazem alrawdah", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_490", "name": "Alekawah Tabark", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_491", "name": "Roya Al Rowdah", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_492", "name": "Dorrat Altaqwa", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_493", "name": "Nadwat Quraish 1", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_494", "name": "Jawharat Alhiteam", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_495", "name": "Tharwat Almisfalah", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_496", "name": "Jawharat Altaqwa", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_497", "name": "Almira Alhijra Hotel", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_498", "name": "Mada Al Omran 2", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_499", "name": "Manazill Dorat Alsalam", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_500", "name": "Wahdah Alkhair hotel", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_501", "name": "HAYATT MAKAREM HOTEL", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_502", "name": "Rafahya Hotel Makkah", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_503", "name": "Rehab Al Taqwa Hotel", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_504", "name": "Al Ayam Hotel", "category": "1-Star", "district": "Makkah" },
+  { "id": "hotel_505", "name": "Al Eairy Furnished Apartments Makkah 8", "category": "0-Star", "district": "Makkah" },
+  { "id": "hotel_506", "name": "Manazel Al Zaireen Hotel", "category": "0-Star", "district": "Makkah" },
+  { "id": "hotel_507", "name": "Araek Al Khlood Hotel", "category": "0-Star", "district": "Makkah" },
+  { "id": "hotel_508", "name": "OYO 687 Sunday Jeddah Hotel", "category": "0-Star", "district": "Makkah" }
+
     ]
 }   

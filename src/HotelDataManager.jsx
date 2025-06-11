@@ -377,6 +377,7 @@ const GestionnaireHotels = () => {
               />
               
               {/* Boutons de Filtre d'Étoiles */}
+             {/* Boutons de Filtre d'Étoiles - SECTION MISE À JOUR */}
              <div className="flex flex-wrap gap-2 mb-4">
   <button
     onClick={() => setFiltreEtoilesSelectionne('')}
@@ -421,8 +422,40 @@ const GestionnaireHotels = () => {
     <Star className="w-4 h-4" />
     3 Étoiles
   </button>
+  <button
+    onClick={() => setFiltreEtoilesSelectionne('2-Star')}
+    className={`px-4 py-2 rounded-lg font-medium transition-all flex items-center gap-1 ${
+      filtreEtoilesSelectionne === '2-Star' 
+        ? 'bg-yellow-500 text-white shadow-lg hover:bg-yellow-600' 
+        : 'bg-gray-200 text-gray-700 hover:bg-yellow-300 hover:text-gray-800'
+    }`}
+  >
+    <Star className="w-4 h-4" />
+    2 Étoiles
+  </button>
+  <button
+    onClick={() => setFiltreEtoilesSelectionne('1-Star')}
+    className={`px-4 py-2 rounded-lg font-medium transition-all flex items-center gap-1 ${
+      filtreEtoilesSelectionne === '1-Star' 
+        ? 'bg-yellow-500 text-white shadow-lg hover:bg-yellow-600' 
+        : 'bg-gray-200 text-gray-700 hover:bg-yellow-300 hover:text-gray-800'
+    }`}
+  >
+    <Star className="w-4 h-4" />
+    1 Étoile
+  </button>
+  <button
+    onClick={() => setFiltreEtoilesSelectionne('0-Star')}
+    className={`px-4 py-2 rounded-lg font-medium transition-all flex items-center gap-1 ${
+      filtreEtoilesSelectionne === '0-Star' 
+        ? 'bg-yellow-500 text-white shadow-lg hover:bg-yellow-600' 
+        : 'bg-gray-200 text-gray-700 hover:bg-yellow-300 hover:text-gray-800'
+    }`}
+  >
+    <Star className="w-4 h-4" />
+    0 Étoile
+  </button>
 </div>
-              
               {/* Menu Déroulant des Hôtels */}
               <select
                 value={hotelSelectionne}
