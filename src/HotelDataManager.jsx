@@ -351,7 +351,7 @@ const GestionnaireHotels = () => {
       />
     </div>
     <h1 className="text-5xl font-bold text-gray-800">
-      عمرة بوكينج
+      OmraBooking
     </h1>
   </div>
   <p className="text-gray-800 text-xl font-semibold">نظام إدارة بيانات الفنادق</p>
