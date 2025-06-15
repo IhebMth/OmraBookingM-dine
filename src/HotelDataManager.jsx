@@ -19,82 +19,82 @@ const GestionnaireHotels = () => {
 
   // Catégories de champs avec style inspiré du logo
   const categoriesChamps = {
-    'Distance et Localisation': {
+    'المسافة والموقع': {
       icon: <MapPin className="w-5 h-5" />,
       color: 'from-amber-500 to-yellow-600',
       fields: [
-        'Distance au haram/Mesjed al Nabaoui (m)',
-        'Distance aéroport (m)',
-        'Distance mina/Rawdah Charifa (m)',
-        'Distance gare de train (mètre)',
-        'Distance gare de train (minutes)',
-        'Distance mosquée le plus proche (m)',
-        'Distance Abraj Al Bait (m)',
-        'Distance Train - Al Haramain Train Station Madinah (mètres et Km)'
+        'المسافة إلى الحرم/المسجد النبوي (متر)',
+        'المسافة إلى المطار (متر)',
+        'المسافة إلى منى/الروضة الشريفة (متر)',
+        'المسافة إلى محطة القطار (متر)',
+        'المسافة إلى محطة القطار (دقائق)',
+        'المسافة إلى أقرب مسجد (متر)',
+        'المسافة إلى أبراج البيت (متر)',
+        'المسافة إلى محطة قطار الحرمين - المدينة المنورة (متر وكيلومتر)'
       ]
     },
-    'Transport': {
+    'وسائل النقل': {
       icon: <Car className="w-5 h-5" />,
       color: 'from-gray-700 to-gray-800',
       fields: [
-        'Navette gratuite',
-        'Navette 24h/24',
-        'Navette payante',
-        'Navette pendant les heures de prière',
-        'Parking',
-        'Parking payant',
-        'Parking gratuit',
-        'Parking accessible pendant les heures de prière',
-        'Disponibilité d\'un parking pour le van et bus'
+        'حافلة مجانية',
+        'حافلة 24 ساعة',
+        'حافلة مدفوعة',
+        'حافلة أثناء أوقات الصلاة',
+        'موقف سيارات',
+        'موقف سيارات مدفوع',
+        'موقف سيارات مجاني',
+        'موقف سيارات متاح أثناء أوقات الصلاة',
+        'توفر موقف للحافلات والفانات'
       ]
     },
-    'Vues et Hébergement': {
+    'الإطلالات والإقامة': {
       icon: <Eye className="w-5 h-5" />,
       color: 'from-amber-600 to-yellow-700',
       fields: [
-        'Vue Kaaba disponible',
-        'Vue partielle Kaaba',
-        'Vue standard Kaaba',
-        'Vue panoramique Kaaba',
-        'Vue Haram',
-        'Hôtel accessible à pied'
+        'إطلالة على الكعبة متوفرة',
+        'إطلالة جزئية على الكعبة',
+        'إطلالة عادية على الكعبة',
+        'إطلالة بانورامية على الكعبة',
+        'إطلالة على الحرم',
+        'فندق يمكن الوصول إليه سيراً على الأقدام'
       ]
     },
-    'Services à Proximité': {
+    'الخدمات القريبة': {
       icon: <Building className="w-5 h-5" />,
       color: 'from-gray-600 to-gray-700',
       fields: [
-        'Hôpital le plus proche',
-        'Pharmacie la plus proche',
-        'Centre commercial (mall) le plus proche',
-        'Portes les plus proches du Haram(nom / distance)',
-        'Mosquées à proximité(nom / distance)',
-        'Salon de coiffure à 200 m'
+        'أقرب مستشفى',
+        'أقرب صيدلية',
+        'أقرب مركز تجاري (مول)',
+        'أقرب أبواب الحرم (الاسم / المسافة)',
+        'المساجد القريبة (الاسم / المسافة)',
+        'صالون حلاقة على بعد 200 متر'
       ]
     },
-    'Restauration': {
+    'الطعام والشراب': {
       icon: <Utensils className="w-5 h-5" />,
       color: 'from-yellow-600 to-amber-700',
       fields: [
-        'Restaurant (Nom / Type de cuisine)',
-        'Restaurants et cafés(nom / distance)',
-        'Souhour et Iftar inclus'
+        'مطعم (الاسم / نوع المأكولات)',
+        'المطاعم والمقاهي (الاسم / المسافة)',
+        'السحور والإفطار مشمولان'
       ]
     },
-    'Équipements de l\'Hôtel': {
+    'مرافق الفندق': {
       icon: <Star className="w-5 h-5" />,
       color: 'from-amber-500 to-yellow-500',
       fields: [
-        'SPA',
-        'Saunas',
-        'Hammams',
-        'Centre de fitness',
-        'Piscine',
-        'Fauteuil de massage',
-        'Massage des pieds disponible',
-        'Salon de coiffure/institut de beauté',
-        'Centre d\'affaire',
-        'Garderie d\'enfants disponible dans l\'hôtel'
+        'سبا',
+        'ساونا',
+        'حمام تركي',
+        'مركز لياقة بدنية',
+        'مسبح',
+        'كرسي تدليك',
+        'تدليك القدمين متوفر',
+        'صالون حلاقة/معهد تجميل',
+        'مركز أعمال',
+        'حضانة أطفال متوفرة في الفندق'
       ]
     }
   };
@@ -207,7 +207,7 @@ const GestionnaireHotels = () => {
   const sauvegarderDonnees = () => {
     if (hotelSelectionne) {
       sessionStorage.setItem(`hotel_${hotelSelectionne}`, JSON.stringify(donneesActuelles));
-      setMessageSauvegarde('✅ Données sauvegardées avec succès !');
+      setMessageSauvegarde('✅ تم حفظ البيانات بنجاح!');
       setTimeout(() => setMessageSauvegarde(''), 3000);
     }
   };
@@ -215,7 +215,7 @@ const GestionnaireHotels = () => {
   // Exporter les données d'un seul hôtel
   const exporterVersExcel = () => {
     if (!hotelSelectionne) {
-      alert('Veuillez d\'abord sélectionner un hôtel !');
+      alert('يرجى اختيار فندق أولاً!');
       return;
     }
 
@@ -226,29 +226,29 @@ const GestionnaireHotels = () => {
     ];
 
     const donneesExportation = tousLesChamps.map(champ => ({
-      'Champ': champ,
-      'Valeur': donneesActuelles[champ] || ''
+      'الحقل': champ,
+      'القيمة': donneesActuelles[champ] || ''
     }));
 
     donneesExportation.unshift({
-      'Champ': 'Nom de l\'Hôtel',
-      'Valeur': donneesHotelSelectionne?.name || ''
+      'الحقل': 'اسم الفندق',
+      'القيمة': donneesHotelSelectionne?.name || ''
     });
 
     donneesExportation.unshift({
-      'Champ': 'Catégorie de l\'Hôtel',
-      'Valeur': donneesHotelSelectionne?.category || ''
+      'الحقل': 'فئة الفندق',
+      'القيمة': donneesHotelSelectionne?.category || ''
     });
 
     donneesExportation.unshift({
-      'Champ': 'Quartier de l\'Hôtel',
-      'Valeur': donneesHotelSelectionne?.district || ''
+      'الحقل': 'منطقة الفندق',
+      'القيمة': donneesHotelSelectionne?.district || ''
     });
 
     const ws = XLSX.utils.json_to_sheet(donneesExportation);
     const wb = XLSX.utils.book_new();
-    XLSX.utils.book_append_sheet(wb, ws, 'Données Hôtel');
-    XLSX.writeFile(wb, `${donneesHotelSelectionne?.name.replace(/[^a-zA-Z0-9]/g, '_')}_donnees.xlsx`);
+    XLSX.utils.book_append_sheet(wb, ws, 'بيانات الفندق');
+    XLSX.writeFile(wb, `${donneesHotelSelectionne?.name.replace(/[^a-zA-Z0-9]/g, '_')}_بيانات.xlsx`);
   };
 
   // Exporter toutes les données des hôtels
@@ -264,38 +264,38 @@ const GestionnaireHotels = () => {
       const donneesHotel = JSON.parse(sessionStorage.getItem(`hotel_${hotel.id}`) || '{}');
       
       donneesExportation.push({
-        'Hôtel': hotel.name,
-        'Champ': 'Nom de l\'Hôtel',
-        'Valeur': hotel.name
+        'الفندق': hotel.name,
+        'الحقل': 'اسم الفندق',
+        'القيمة': hotel.name
       });
       
       donneesExportation.push({
-        'Hôtel': hotel.name,
-        'Champ': 'Catégorie de l\'Hôtel',
-        'Valeur': hotel.category
+        'الفندق': hotel.name,
+        'الحقل': 'فئة الفندق',
+        'القيمة': hotel.category
       });
 
       donneesExportation.push({
-        'Hôtel': hotel.name,
-        'Champ': 'Quartier de l\'Hôtel',
-        'Valeur': hotel.district
+        'الفندق': hotel.name,
+        'الحقل': 'منطقة الفندق',
+        'القيمة': hotel.district
       });
       
       tousLesChamps.forEach(champ => {
         donneesExportation.push({
-          'Hôtel': hotel.name,
-          'Champ': champ,
-          'Valeur': donneesHotel[champ] || ''
+          'الفندق': hotel.name,
+          'الحقل': champ,
+          'القيمة': donneesHotel[champ] || ''
         });
       });
       
-      donneesExportation.push({ 'Hôtel': '', 'Champ': '', 'Valeur': '' });
+      donneesExportation.push({ 'الفندق': '', 'الحقل': '', 'القيمة': '' });
     });
 
     const ws = XLSX.utils.json_to_sheet(donneesExportation);
     const wb = XLSX.utils.book_new();
-    XLSX.utils.book_append_sheet(wb, ws, 'Données Tous Hôtels');
-    XLSX.writeFile(wb, 'Donnees_Completes_Tous_Hotels.xlsx');
+    XLSX.utils.book_append_sheet(wb, ws, 'بيانات جميع الفنادق');
+    XLSX.writeFile(wb, 'البيانات_الكاملة_جميع_الفنادق.xlsx');
   };
 
   // Fonctions d'aide
@@ -338,7 +338,7 @@ const GestionnaireHotels = () => {
   const donneesHotelSelectionne = hotels.find(h => h.id === hotelSelectionne);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-gray-100">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-gray-100" dir="rtl">
       <div className="max-w-7xl mx-auto p-6">
         {/* En-tête */}
        <div className="text-center mb-8 bg-gradient-to-r from-yellow-400 via-amber-500 to-yellow-600 rounded-3xl p-8 shadow-2xl">
@@ -346,16 +346,16 @@ const GestionnaireHotels = () => {
     <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-lg overflow-hidden">
       <img
         src="/OmraBooking.jpg" 
-        alt="Logo Omra Booking"
+        alt="شعار عمرة بوكينج"
         className="w-12 h-12 object-contain"
       />
     </div>
     <h1 className="text-5xl font-bold text-gray-800">
-      Omra Booking
+      عمرة بوكينج
     </h1>
   </div>
-  <p className="text-gray-800 text-xl font-semibold">Système de Gestion des Données d'Hôtels</p>
-  <p className="text-gray-700 text-lg">Gérant {hotels.length}+ Hôtels à La Mecque</p>
+  <p className="text-gray-800 text-xl font-semibold">نظام إدارة بيانات الفنادق</p>
+  <p className="text-gray-700 text-lg">إدارة أكثر من {hotels.length} فندق في مكة المكرمة</p>
 </div>
 
         {/* Sélection d'Hôtel */}
@@ -364,20 +364,19 @@ const GestionnaireHotels = () => {
             <div className="lg:col-span-2">
               <label className="block text-gray-800 text-sm font-semibold mb-2 flex items-center gap-2">
                 <Search className="w-4 h-4" />
-                Rechercher et Sélectionner un Hôtel ({hotelaFiltres.length} sur {hotels.length} Hôtels)
+                البحث واختيار الفندق ({hotelaFiltres.length} من {hotels.length} فندق)
               </label>
               
               {/* Champ de Recherche */}
               <input
                 type="text"
-                placeholder="Rechercher les hôtels par nom, catégorie ou quartier..."
+                placeholder="البحث في الفنادق بالاسم أو الفئة أو المنطقة..."
                 value={termeRecherche}
                 onChange={(e) => setTermeRecherche(e.target.value)}
                 className="w-full p-3 rounded-lg bg-gray-50 border-2 border-yellow-400 text-gray-800 placeholder-gray-500 focus:border-amber-500 focus:ring-2 focus:ring-yellow-200 transition-all mb-4"
               />
               
               {/* Boutons de Filtre d'Étoiles */}
-             {/* Boutons de Filtre d'Étoiles - SECTION MISE À JOUR */}
              <div className="flex flex-wrap gap-2 mb-4">
   <button
     onClick={() => setFiltreEtoilesSelectionne('')}
@@ -387,7 +386,7 @@ const GestionnaireHotels = () => {
         : 'bg-gray-200 text-gray-700 hover:bg-yellow-300 hover:text-gray-800'
     }`}
   >
-    Toutes Étoiles
+    جميع النجوم
   </button>
   <button
     onClick={() => setFiltreEtoilesSelectionne('5-Star')}
@@ -398,7 +397,7 @@ const GestionnaireHotels = () => {
     }`}
   >
     <Star className="w-4 h-4" />
-    5 Étoiles
+    5 نجوم
   </button>
   <button
     onClick={() => setFiltreEtoilesSelectionne('4-Star')}
@@ -409,7 +408,7 @@ const GestionnaireHotels = () => {
     }`}
   >
     <Star className="w-4 h-4" />
-    4 Étoiles
+    4 نجوم
   </button>
   <button
     onClick={() => setFiltreEtoilesSelectionne('3-Star')}
@@ -420,7 +419,7 @@ const GestionnaireHotels = () => {
     }`}
   >
     <Star className="w-4 h-4" />
-    3 Étoiles
+    3 نجوم
   </button>
   <button
     onClick={() => setFiltreEtoilesSelectionne('2-Star')}
@@ -431,7 +430,7 @@ const GestionnaireHotels = () => {
     }`}
   >
     <Star className="w-4 h-4" />
-    2 Étoiles
+    نجمتان
   </button>
   <button
     onClick={() => setFiltreEtoilesSelectionne('1-Star')}
@@ -442,7 +441,7 @@ const GestionnaireHotels = () => {
     }`}
   >
     <Star className="w-4 h-4" />
-    1 Étoile
+    نجمة واحدة
   </button>
   <button
     onClick={() => setFiltreEtoilesSelectionne('0-Star')}
@@ -453,7 +452,7 @@ const GestionnaireHotels = () => {
     }`}
   >
     <Star className="w-4 h-4" />
-    0 Étoile
+    بدون نجوم
   </button>
 </div>
               {/* Menu Déroulant des Hôtels */}
@@ -462,7 +461,7 @@ const GestionnaireHotels = () => {
                 onChange={(e) => gererSelectionHotel(e.target.value)}
                 className="w-full p-3 rounded-lg bg-gray-50 border-2 border-yellow-400 text-gray-800 focus:border-amber-500 focus:ring-2 focus:ring-yellow-200 transition-all"
               >
-                <option value="">Sélectionner un hôtel...</option>
+                <option value="">اختر فندق...</option>
                 {hotelaFiltres.map((hotel) => (
                   <option key={hotel.id} value={hotel.id}>
                     {hotel.name} ({hotel.category}) - {hotel.district}
@@ -471,7 +470,7 @@ const GestionnaireHotels = () => {
               </select>
               
               {hotelaFiltres.length === 0 && (termeRecherche || filtreEtoilesSelectionne) && (
-                <p className="text-gray-600 text-sm mt-2">Aucun hôtel trouvé correspondant à vos critères.</p>
+                <p className="text-gray-600 text-sm mt-2">لم يتم العثور على فنادق تطابق معاييرك.</p>
               )}
             </div>
             
@@ -479,7 +478,7 @@ const GestionnaireHotels = () => {
               <div className="bg-gradient-to-br from-yellow-50 to-amber-50 rounded-xl p-4 border-2 border-yellow-300">
                 <h3 className="text-gray-800 font-bold mb-3 flex items-center gap-2">
                   <BarChart3 className="w-5 h-5" />
-                  État de Completion
+                  حالة الإكمال
                 </h3>
                 <div className="space-y-3">
                   <div className="flex items-center gap-3">
@@ -489,17 +488,17 @@ const GestionnaireHotels = () => {
                         style={{ width: `${obtenirPourcentageCompletion()}%` }}
                       ></div>
                     </div>
-                    <span className="text-gray-800 font-bold">{obtenirPourcentageCompletion()}%</span>
+                    <span className="text-gray-800 font-bold">%{obtenirPourcentageCompletion()}</span>
                   </div>
                   <div className="text-sm text-gray-700">
-                    <div>✅ Remplis : {obtenirChampsRemplis().length} champs</div>
-                    <div>❌ Manquants : {obtenirChampsVides().length} champs</div>
+                    <div>✅ مكتمل: {obtenirChampsRemplis().length} حقل</div>
+                    <div>❌ ناقص: {obtenirChampsVides().length} حقل</div>
                   </div>
                   {donneesHotelSelectionne && (
                     <div className="text-sm text-gray-700 border-t border-gray-300 pt-2">
-                      <div><strong>Hôtel :</strong> {donneesHotelSelectionne.name}</div>
-                      <div><strong>Catégorie :</strong> {donneesHotelSelectionne.category}</div>
-                      <div><strong>Quartier :</strong> {donneesHotelSelectionne.district}</div>
+                      <div><strong>الفندق:</strong> {donneesHotelSelectionne.name}</div>
+                      <div><strong>الفئة:</strong> {donneesHotelSelectionne.category}</div>
+                      <div><strong>المنطقة:</strong> {donneesHotelSelectionne.district}</div>
                     </div>
                   )}
                 </div>
@@ -518,21 +517,21 @@ const GestionnaireHotels = () => {
                   className="bg-gradient-to-r from-green-600 to-emerald-700 hover:from-green-700 hover:to-emerald-800 text-white px-6 py-3 rounded-xl font-semibold flex items-center gap-2 transition-all transform hover:scale-105 shadow-lg"
                 >
                   <Save className="w-5 h-5" />
-                  Sauvegarder
+                  حفظ
                 </button>
                 <button
                   onClick={exporterVersExcel}
                   className="bg-gradient-to-r from-yellow-600 to-amber-700 hover:from-yellow-700 hover:to-amber-800 text-white px-6 py-3 rounded-xl font-semibold flex items-center gap-2 transition-all transform hover:scale-105 shadow-lg"
                 >
                   <Download className="w-5 h-5" />
-                  Exporter Hôtel
+                  تصدير الفندق
                 </button>
                 <button
                   onClick={exporterTousLesHotels}
                   className="bg-gradient-to-r from-gray-700 to-gray-800 hover:from-gray-800 hover:to-gray-900 text-white px-6 py-3 rounded-xl font-semibold flex items-center gap-2 transition-all transform hover:scale-105 shadow-lg"
                 >
                   <Download className="w-5 h-5" />
-                  Exporter Tous les Hôtels
+                  تصدير جميع الفنادق
                 </button>
               </div>
               
@@ -545,7 +544,7 @@ const GestionnaireHotels = () => {
                     onChange={(e) => setAfficherSeulementManquants(e.target.checked)}
                     className="w-4 h-4 text-yellow-500 rounded"
                   />
-                  Afficher seulement les champs manquants
+                  إظهار الحقول الناقصة فقط
                 </label>
               </div>
             </div>
@@ -557,7 +556,7 @@ const GestionnaireHotels = () => {
               </div>
             )}
 
-           {/* Champs de Saisie de Données */}
+          {/* حقول إدخال البيانات */}
             <div className="space-y-6">
               {Object.entries(categoriesChamps).map(([nomCategorie, donneesCategorie]) => {
                 const champsAAfficher = obtenirChampsAAfficher(donneesCategorie.fields);
@@ -568,11 +567,11 @@ const GestionnaireHotels = () => {
                       <div className={`bg-gradient-to-r from-green-500 to-emerald-600 p-4 rounded-xl mb-4`}>
                         <h3 className="text-white text-xl font-bold flex items-center gap-3">
                           <CheckCircle className="w-6 h-6" />
-                          {nomCategorie} - Tous Complets ✅
+                          {nomCategorie} - جميع البيانات مكتملة ✅
                         </h3>
                       </div>
                       <p className="text-green-700 font-semibold text-center py-4">
-                        Tous les champs de cette catégorie ont été complétés !
+                        تم إكمال جميع حقول هذه الفئة!
                       </p>
                     </div>
                   );
@@ -586,7 +585,7 @@ const GestionnaireHotels = () => {
                         {nomCategorie}
                         {afficherSeulementManquants && champsAAfficher.length > 0 && (
                           <span className="bg-white/20 px-3 py-1 rounded-full text-sm">
-                            {champsAAfficher.length} manquants
+                            {champsAAfficher.length} ناقص
                           </span>
                         )}
                       </h3>
@@ -604,7 +603,7 @@ const GestionnaireHotels = () => {
                             value={donneesActuelles[champ] || ''}
                             onChange={(e) => gererChangementChamp(champ, e.target.value)}
                             className="w-full p-3 rounded-lg bg-gray-50 border-2 border-yellow-400 text-gray-800 placeholder-gray-500 focus:border-amber-500 focus:ring-2 focus:ring-yellow-200 transition-all"
-                            placeholder={`Saisir ${champ.toLowerCase()}...`}
+                            placeholder={`أدخل ${champ.toLowerCase()}...`}
                             data-field={champ}
                             onFocus={() => setChampEnCoursEdition(champ)}
                             onBlur={() => setChampEnCoursEdition('')}
@@ -616,15 +615,15 @@ const GestionnaireHotels = () => {
                 );
               })}
 
-              {/* Champs Personnalisés */}
+              {/* الحقول المخصصة */}
               <div className="bg-white/90 backdrop-blur-lg rounded-2xl p-6 shadow-xl border-2 border-yellow-300">
                 <div className="bg-gradient-to-r from-gray-700 to-gray-800 p-4 rounded-xl mb-6">
                   <h3 className="text-white text-xl font-bold flex items-center gap-3">
                     <Edit3 className="w-5 h-5" />
-                    Champs Personnalisés ({champsPersonnalises.length})
+                    الحقول المخصصة ({champsPersonnalises.length})
                     {afficherSeulementManquants && champsPersonnalises.filter(champ => !donneesActuelles[champ]?.trim()).length > 0 && (
                       <span className="bg-white/20 px-3 py-1 rounded-full text-sm">
-                        {champsPersonnalises.filter(champ => !donneesActuelles[champ]?.trim()).length} manquants
+                        {champsPersonnalises.filter(champ => !donneesActuelles[champ]?.trim()).length} ناقص
                       </span>
                     )}
                   </h3>
@@ -641,7 +640,7 @@ const GestionnaireHotels = () => {
                         <button
                           onClick={() => supprimerChampPersonnalise(champ)}
                           className="text-red-500 hover:text-red-400 transition-colors"
-                          title="Supprimer le champ personnalisé"
+                          title="حذف الحقل المخصص"
                         >
                           <Trash2 className="w-4 h-4" />
                         </button>
@@ -651,7 +650,7 @@ const GestionnaireHotels = () => {
                         value={donneesActuelles[champ] || ''}
                         onChange={(e) => gererChangementChamp(champ, e.target.value)}
                         className="w-full p-3 rounded-lg bg-gray-50 border-2 border-yellow-400 text-gray-800 placeholder-gray-500 focus:border-amber-500 focus:ring-2 focus:ring-yellow-200 transition-all"
-                        placeholder={`Saisir ${champ.toLowerCase()}...`}
+                        placeholder={`أدخل ${champ.toLowerCase()}...`}
                         onFocus={() => setChampEnCoursEdition(champ)}
                         onBlur={() => setChampEnCoursEdition('')}
                         data-field={champ}
@@ -661,7 +660,7 @@ const GestionnaireHotels = () => {
                 </div>
 
                 {champsPersonnalises.length === 0 && (
-                  <p className="text-gray-500 text-center py-4 italic">Aucun champ personnalisé ajouté pour le moment</p>
+                  <p className="text-gray-500 text-center py-4 italic">لم يتم إضافة أي حقول مخصصة حتى الآن</p>
                 )}
 
                 {afficherSaisieChampPersonnalise ? (
@@ -670,7 +669,7 @@ const GestionnaireHotels = () => {
                       type="text"
                       value={nomNouveauChamp}
                       onChange={(e) => setNomNouveauChamp(e.target.value)}
-                      placeholder="Saisir le nom du nouveau champ..."
+                      placeholder="أدخل اسم الحقل الجديد..."
                       className="flex-1 p-3 rounded-lg bg-gray-50 border-2 border-yellow-400 text-gray-800 placeholder-gray-500 focus:border-amber-500 focus:ring-2 focus:ring-yellow-200 transition-all"
                       onKeyPress={(e) => e.key === 'Enter' && ajouterChampPersonnalise()}
                     />
@@ -679,7 +678,7 @@ const GestionnaireHotels = () => {
                       className="bg-green-600 hover:bg-green-700 text-white px-4 py-3 rounded-lg transition-colors flex items-center gap-2"
                     >
                       <CheckCircle className="w-5 h-5" />
-                      Ajouter
+                      إضافة
                     </button>
                     <button
                       onClick={() => {
@@ -688,7 +687,7 @@ const GestionnaireHotels = () => {
                       }}
                       className="bg-gray-600 hover:bg-gray-700 text-white px-4 py-3 rounded-lg transition-colors"
                     >
-                      Annuler
+                      إلغاء
                     </button>
                   </div>
                 ) : (
@@ -697,7 +696,7 @@ const GestionnaireHotels = () => {
                     className="bg-gradient-to-r from-yellow-600 to-amber-700 hover:from-yellow-700 hover:to-amber-800 text-white px-6 py-3 rounded-xl font-semibold flex items-center gap-2 transition-all transform hover:scale-105"
                   >
                     <Plus className="w-5 h-5" />
-                    Ajouter un Champ Personnalisé
+                    إضافة حقل مخصص
                   </button>
                 )}
               </div>
@@ -706,13 +705,13 @@ const GestionnaireHotels = () => {
         )}
 
         
-        {/* Pied de page */}
+        {/* تذييل الصفحة */}
         <div className="text-center mt-12 bg-gradient-to-r from-gray-700 to-slate-800 rounded-2xl p-6 border-2 border-orange-300">
           <div className="flex items-center justify-center gap-2 mb-2">
             <Hotel className="w-6 h-6 text-orange-400" />
-            <p className="text-white font-semibold">© 2025 Omra Booking - Système de Gestion des Données Hôtelières</p>
+            <p className="text-white font-semibold">© 2025 حجز العمرة - نظام إدارة البيانات الفندقية</p>
           </div>
-          <p className="text-gray-300">Gestion de {hotels.length}+ Hôtels à La Mecque avec Excellence Professionnelle</p>
+          <p className="text-gray-300">إدارة {hotels.length}+ فندق في مكة المكرمة بامتياز مهني</p>
         </div>
       </div>
     </div>
