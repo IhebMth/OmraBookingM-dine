@@ -35,6 +35,7 @@ const GestionnaireHotels = () => {
     useState(true);
   const [champEnCoursEdition, setChampEnCoursEdition] = useState("");
   const [filtreEtoilesSelectionne, setFiltreEtoilesSelectionne] = useState("");
+  const [nombreTypesChambres, setNombreTypesChambres] = useState(1);
 
   // Catégories de champs avec style inspiré du logo
   // Catégories de champs avec style inspiré du logo
@@ -50,13 +51,16 @@ const GestionnaireHotels = () => {
         "عنوان الفندق",
         "الحي",
         "اللغات التي يتحدث بها طاقم العمل",
+        "كم عدد الأبراج؟",
+        "كم عدد الطوابق الفندق؟",
+        "كم عدد المصاعد في الفندق؟",
       ],
     },
     "المسافة والموقع": {
       icon: <MapPin className="w-5 h-5" />,
       color: "from-amber-500 to-yellow-600",
       fields: [
-        "المسافة إلى الحرم/الحرم المكي (متر)",
+        "المسافة إلى الحرم المكي (متر)",
         "المسافة إلى المطار (متر)",
         "المسافة إلى منى(متر)",
         "المسافة إلى محطة القطار (متر)",
@@ -72,10 +76,10 @@ const GestionnaireHotels = () => {
       icon: <Building className="w-5 h-5" />,
       color: "from-gray-600 to-gray-700",
       fields: [
-        "المسافة إلى المستشفى",
         "اسم المستشفى",
-        "المسافة إلى الصيدلية",
+        "المسافة إلى المستشفى",
         "اسم الصيدلية",
+        "المسافة إلى الصيدلية",
         "أقرب مركز تجاري (مول)",
         "اسم المول",
         "المسافة إلى المول",
@@ -92,7 +96,7 @@ const GestionnaireHotels = () => {
         "هل توجد حافلة تعمل 24 ساعة؟",
         "هل الحافلة مدفوعة؟",
         "هل توجد حافلة أثناء أوقات الصلاة؟",
-       " تتوقف الحافلات في غزة أو عند النفق",
+        " تتوقف الحافلات في غزة أو عند النفق",
         "هل يوجد موقف سيارات؟",
         "هل موقف السيارات مدفوع؟",
         "هل موقف السيارات مجاني؟",
@@ -160,9 +164,6 @@ const GestionnaireHotels = () => {
         "صالون حلاقة/معهد تجميل",
         "مركز أعمال",
         "حضانة أطفال متوفرة في الفندق",
-        "كم عدد الأبراج؟",
-        "كم عدد الطوابق الفندق؟",
-        "كم عدد المصاعد في الفندق؟",
         "هل يوجد روضة أطفال داخل الفندق؟",
         "هل يتوفر واي فاي مجاني داخل الفندق؟",
         "منطقة لتخزين الأمتعة",
@@ -187,9 +188,7 @@ const GestionnaireHotels = () => {
       icon: <Building className="w-5 h-5" />,
       color: "from-teal-500 to-cyan-600",
       fields: [
-        "مساحة الغرفة",
-        "ما هو عرض الأسرة في الغرف؟",
-        "هل يوجد سجادة صلاة، القرآن الكريم، واتجاه القبلة معروض في الغرفة؟",
+        "اتجاه القبلة معروض في الغرفة",
         "هل يوجد غرف مناسبة للأشخاص ذوي الحركة المحدودة؟",
         "هل توجد أجنحة لـ 5 أشخاص في الفندق؟",
         "هل توجد غرف رباعية قياسية (4 أسرة) في الفندق؟",
@@ -204,6 +203,39 @@ const GestionnaireHotels = () => {
         "هل يوجد آلة صنع القهوة؟",
       ],
     },
+    // Add this new category to your categoriesChamps object, place it after "معلومات الغرف"
+    "أنواع الغرف والأجنحة": {
+      icon: <Building className="w-5 h-5" />,
+      color: "from-purple-500 to-violet-600",
+      fields: [], // Keep this empty as we'll handle room types separately
+    },
+  };
+
+  const generateRoomTypeCategories = () => {
+    const roomTypeCategories = {};
+
+    for (let i = 1; i <= nombreTypesChambres; i++) {
+      roomTypeCategories[`النوع ${i} - معلومات الغرفة/الجناح`] = {
+        icon: <Building className="w-5 h-5" />,
+        color: `from-purple-${400 + (i % 3) * 100} to-violet-${
+          500 + (i % 3) * 100
+        }`,
+        fields: [
+          `النوع ${i} - ما نوع الغرفة؟ (غرفة أو جناح)`,
+          `النوع ${i} - إذا كان جناحًا، كم عدد الغرف فيه؟`,
+          `النوع ${i} - ما نوع الإطلالة؟`,
+          `النوع ${i} - كم عدد الأشخاص الذين يمكن أن يشغلوا هذه الغرفة أو الجناح؟`,
+          `النوع ${i} - ما مساحة الغرفة؟`,
+          `النوع ${i} - ما اسم السرير؟ (كينغ سايز، سرير مزدوج، إلخ...)`,
+          `النوع ${i} - ما عدد الأسرة في الغرفة؟`,
+          `النوع ${i} - ما عرض السرير؟`,
+          `النوع ${i} - هل توجد سجادة صلاة، قرآن كريم، واتجاه القبلة معروض في الغرفة؟`,
+          `النوع ${i} - كم عدد الحمامات؟`,
+        ],
+      };
+    }
+
+    return roomTypeCategories;
   };
 
   // Initialiser les hôtels depuis le fichier JSON
@@ -361,6 +393,9 @@ const GestionnaireHotels = () => {
     );
     const tousLesChamps = [
       ...Object.values(categoriesChamps).flatMap((cat) => cat.fields),
+      ...Object.values(generateRoomTypeCategories()).flatMap(
+        (cat) => cat.fields
+      ),
       ...champsPersonnalises,
     ];
 
@@ -446,17 +481,23 @@ const GestionnaireHotels = () => {
   };
 
   // Fonctions d'aide
+
   const obtenirChampsVides = () => {
     const tousLesChamps = [
       ...Object.values(categoriesChamps).flatMap((cat) => cat.fields),
+      ...Object.values(generateRoomTypeCategories()).flatMap(
+        (cat) => cat.fields
+      ),
       ...champsPersonnalises,
     ];
     return tousLesChamps.filter((champ) => !donneesActuelles[champ]?.trim());
   };
-
   const obtenirChampsRemplis = () => {
     const tousLesChamps = [
       ...Object.values(categoriesChamps).flatMap((cat) => cat.fields),
+      ...Object.values(generateRoomTypeCategories()).flatMap(
+        (cat) => cat.fields
+      ),
       ...champsPersonnalises,
     ];
     return tousLesChamps.filter((champ) => donneesActuelles[champ]?.trim());
@@ -465,6 +506,9 @@ const GestionnaireHotels = () => {
   const obtenirPourcentageCompletion = () => {
     const tousLesChamps = [
       ...Object.values(categoriesChamps).flatMap((cat) => cat.fields),
+      ...Object.values(generateRoomTypeCategories()).flatMap(
+        (cat) => cat.fields
+      ),
       ...champsPersonnalises,
     ];
     const champsRemplis = tousLesChamps.filter((champ) =>
@@ -487,6 +531,20 @@ const GestionnaireHotels = () => {
   };
 
   const donneesHotelSelectionne = hotels.find((h) => h.id === hotelSelectionne);
+
+  // Add this function to handle adding new room types
+  const ajouterNouveauTypeGhambre = () => {
+    if (nombreTypesChambres < 20) {
+      setNombreTypesChambres((prev) => prev + 1);
+    }
+  };
+
+  // Add this function to remove room types
+  const supprimerTypeGhambre = () => {
+    if (nombreTypesChambres > 1) {
+      setNombreTypesChambres((prev) => prev - 1);
+    }
+  };
 
   return (
     <div
@@ -727,8 +785,12 @@ const GestionnaireHotels = () => {
 
             {/* حقول إدخال البيانات */}
             <div className="space-y-6">
-              {Object.entries(categoriesChamps).map(
-                ([nomCategorie, donneesCategorie]) => {
+              {Object.entries(categoriesChamps)
+                .filter(
+                  ([nomCategorie]) => nomCategorie !== "أنواع الغرف والأجنحة"
+                )
+                .concat(Object.entries(generateRoomTypeCategories()))
+                .map(([nomCategorie, donneesCategorie]) => {
                   const champsAAfficher = obtenirChampsAAfficher(
                     donneesCategorie.fields
                   );
@@ -742,9 +804,7 @@ const GestionnaireHotels = () => {
                         key={nomCategorie}
                         className="bg-green-50 backdrop-blur-lg rounded-2xl p-6 border-2 border-green-400"
                       >
-                        <div
-                          className={`bg-gradient-to-r from-green-500 to-emerald-600 p-4 rounded-xl mb-4`}
-                        >
+                        <div className="bg-gradient-to-r from-green-500 to-emerald-600 p-4 rounded-xl mb-4">
                           <h3 className="text-white text-xl font-bold flex items-center gap-3">
                             <CheckCircle className="w-6 h-6" />
                             {nomCategorie} - جميع البيانات مكتملة ✅
@@ -757,10 +817,19 @@ const GestionnaireHotels = () => {
                     );
                   }
 
+                  // Check if this is a room type category
+                  const isRoomTypeCategory =
+                    nomCategorie.includes("النوع") &&
+                    nomCategorie.includes("معلومات الغرفة");
+
                   return (
                     <div
                       key={nomCategorie}
-                      className="bg-white/90 backdrop-blur-lg rounded-2xl p-6 shadow-xl border-2 border-yellow-300"
+                      className={`bg-white/90 backdrop-blur-lg rounded-2xl p-6 shadow-xl border-2 ${
+                        isRoomTypeCategory
+                          ? "border-purple-400"
+                          : "border-yellow-300"
+                      }`}
                     >
                       <div
                         className={`bg-gradient-to-r ${donneesCategorie.color} p-4 rounded-xl mb-6`}
@@ -803,9 +872,45 @@ const GestionnaireHotels = () => {
                       </div>
                     </div>
                   );
-                }
-              )}
+                })}
 
+              {/* Add the room type management section separately at the end */}
+              <div className="bg-white/90 backdrop-blur-lg rounded-2xl p-6 shadow-xl border-2 border-purple-400">
+                <div className="bg-gradient-to-r from-purple-600 to-violet-700 p-4 rounded-xl mb-6">
+                  <h3 className="text-white text-xl font-bold flex items-center gap-3">
+                    <Building className="w-6 h-6" />
+                    إدارة أنواع الغرف والأجنحة
+                  </h3>
+                </div>
+
+                <div className="flex gap-4 justify-center">
+                  <button
+                    onClick={ajouterNouveauTypeGhambre}
+                    disabled={nombreTypesChambres >= 20}
+                    className={`flex items-center gap-2 px-6 py-3 rounded-xl font-semibold transition-all transform hover:scale-105 ${
+                      nombreTypesChambres >= 20
+                        ? "bg-gray-400 text-gray-600 cursor-not-allowed"
+                        : "bg-gradient-to-r from-purple-600 to-violet-700 hover:from-purple-700 hover:to-violet-800 text-white shadow-lg"
+                    }`}
+                  >
+                    <Plus className="w-5 h-5" />
+                    إضافة نوع غرفة جديد ({nombreTypesChambres}/20)
+                  </button>
+                  {nombreTypesChambres > 1 && (
+                    <button
+                      onClick={supprimerTypeGhambre}
+                      className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-6 py-3 rounded-xl font-semibold flex items-center gap-2 transition-all transform hover:scale-105 shadow-lg"
+                    >
+                      <Trash2 className="w-5 h-5" />
+                      حذف آخر نوع
+                    </button>
+                  )}
+                </div>
+
+                <div className="mt-4 text-center text-sm text-gray-600">
+                  عدد أنواع الغرف الحالية: {nombreTypesChambres}
+                </div>
+              </div>
               {/* الحقول المخصصة */}
               <div className="bg-white/90 backdrop-blur-lg rounded-2xl p-6 shadow-xl border-2 border-yellow-300">
                 <div className="bg-gradient-to-r from-gray-700 to-gray-800 p-4 rounded-xl mb-6">
