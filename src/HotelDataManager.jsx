@@ -44,6 +44,7 @@ const GestionnaireHotels = () => {
       icon: <Hotel className="w-5 h-5" />,
       color: "from-blue-500 to-indigo-600",
       fields: [
+        " عدد النجوم",
         "سلسلة الفنادق التابعة لها",
         "البريد الإلكتروني للفندق",
         "رقم الهاتف",
@@ -393,15 +394,6 @@ const GestionnaireHotels = () => {
       القيمة: donneesHotelSelectionne?.name || "",
     });
 
-    donneesExportation.unshift({
-      الحقل: "فئة الفندق",
-      القيمة: donneesHotelSelectionne?.category || "",
-    });
-
-    donneesExportation.unshift({
-      الحقل: "منطقة الفندق",
-      القيمة: donneesHotelSelectionne?.district || "",
-    });
 
     const ws = XLSX.utils.json_to_sheet(donneesExportation);
     const wb = XLSX.utils.book_new();
