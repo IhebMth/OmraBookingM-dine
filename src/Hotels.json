@@ -1,12 +1,1258 @@
 {
-  "makkahHotels": [
-    
-  {
+  "madinahHotels": [
+    {
       "id": "hotel_1",
-      "name": "فندق إم بلاتينيوم (M Platinum Hotel)",
+      "name": "فندق ذا أوبروي المدينة (The Oberoi Madina)",
+      "category": "5-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_2",
+      "name": "دار الإيمان الحرم (Dar Aleiman Al Haram)",
+      "category": "5-Star",
+      "district": "الحرم النبوي (Haram Nabawi)"
+    },
+    {
+      "id": "hotel_3",
+      "name": "فندق أنوار المدينة موفنبيك (Anwar Al Madinah Movenpick Hotel)",
+      "category": "5-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_4",
+      "name": "فندق فرونتل الحارثية (Frontel Al Harithia Hotel)",
+      "category": "5-Star",
+      "district": "الحارثية (Al Harithia)"
+    },
+    {
+      "id": "hotel_5",
+      "name": "سوفيتيل شهد المدينة (Sofitel Shahd Al Madinah)",
+      "category": "5-Star",
+      "district": "الحرم النبوي (Haram Nabawi)"
+    },
+    {
+      "id": "hotel_6",
+      "name": "فندق دار التقوى (Dar Al Taqwa Hotel)",
+      "category": "5-Star",
+      "district": "الحرم النبوي (Haram Nabawi)"
+    },
+    {
+      "id": "hotel_7",
+      "name": "فندق العقيق المدينة (Al Aqeeq Madinah Hotel)",
+      "category": "5-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_8",
+      "name": "مطار الألفية المدينة (Millennium Madinah Airport)",
+      "category": "5-Star",
+      "district": "المطار (Aéroport)"
+    },
+    {
+      "id": "hotel_9",
+      "name": "لو ميريديان المدينة (Le Meridien Madinah)",
+      "category": "5-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_10",
+      "name": "فندق طيبة المدينة (Taiba Hotel Madinah)",
+      "category": "5-Star",
+      "district": "طيبة (Taiba)"
+    },
+    {
+      "id": "hotel_11",
+      "name": "شازا ريجنسي بلازا المدينة (Shaza Regency Plaza Madinah)",
+      "category": "5-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_12",
+      "name": "مدن الروضة (Maden Al Rawda)",
+      "category": "5-Star",
+      "district": "الروضة (Al Rawda)"
+    },
+    {
+      "id": "hotel_13",
+      "name": "فندق مدن (Maden Hotel)",
+      "category": "5-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_14",
+      "name": "ليدر المنى كريم (Leader Al Muna Karim)",
+      "category": "5-Star",
+      "district": "المنى (Al Muna)"
+    },
+    {
+      "id": "hotel_15",
+      "name": "أجنحة طيبة أراك (Taiba Arac Suites)",
+      "category": "5-Star",
+      "district": "طيبة (Taiba)"
+    },
+    {
+      "id": "hotel_16",
+      "name": "فندق إعمار رويال المدينة (Emaar Royal Hotel Medina)",
+      "category": "5-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_17",
+      "name": "فندق روف المدينة (Ruve Al Madinah Hotel)",
+      "category": "5-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_18",
+      "name": "فندق رؤى الهجرة (Rua Al Hijrah Hotel)",
+      "category": "5-Star",
+      "district": "الهجرة (Al Hijrah)"
+    },
+    {
+      "id": "hotel_19",
+      "name": "برج الصفوة (Al Safwah Tower)",
+      "category": "5-Star",
+      "district": "الصفوة (Al Safwah)"
+    },
+    {
+      "id": "hotel_20",
+      "name": "فندق العقيق المدينة (Al Aqeeq Madinah Hotel)",
+      "category": "5-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_21",
+      "name": "صحابة طيبة (Sahaba Taiba)",
+      "category": "5-Star",
+      "district": "طيبة (Taiba)"
+    },
+    {
+      "id": "hotel_22",
+      "name": "فندق دلة طيبة (Dallah Taibah Hotel)",
+      "category": "4-Star",
+      "district": "طيبة (Taiba)"
+    },
+    {
+      "id": "hotel_23",
+      "name": "شقق ماريوت التنفيذية المدينة (Marriott Executive Apartments Madinah)",
+      "category": "4-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_24",
+      "name": "دار الهجرة إنتركونتيننتال المدينة (Dar Al Hijra Intercontinental Madinah)",
+      "category": "4-Star",
+      "district": "الهجرة (Al Hijrah)"
+    },
+    {
+      "id": "hotel_25",
+      "name": "فندق روتانا المسك (Rotana Al Mesk Hotel)",
+      "category": "4-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_26",
+      "name": "كونكورد دار الخير (Concorde Dar Al Khair)",
+      "category": "4-Star",
+      "district": "دار الخير (Dar Al Khair)"
+    },
+    {
+      "id": "hotel_27",
+      "name": "بولمان زمزم المدينة (Pullman Zamzam Madina)",
+      "category": "5-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_28",
+      "name": "فندق جست تايم (Guest Time Hotel)",
+      "category": "4-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_29",
+      "name": "جولدن توليب الأنصار (Golden Tulip Al Ansar)",
       "category": "3-Star",
-      "district": "قربان (Qurban)"
+      "district": "الأنصار (Al Ansar)"
+    },
+    {
+      "id": "hotel_30",
+      "name": "فندق إم بلاتينيوم (M Platinum Hotel)",
+      "category": "4-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_31",
+      "name": "فندق الهدى الماسي (Hotel Al Huda Al Massy)",
+      "category": "4-Star",
+      "district": "الهدى (Al Huda)"
+    },
+    {
+      "id": "hotel_32",
+      "name": "إيلاف طيبة (Elaf Taiba)",
+      "category": "3-Star",
+      "district": "طيبة (Taiba)"
+    },
+    {
+      "id": "hotel_33",
+      "name": "دار الإيمان إنتركونتيننتال (Dar Al Iman Intercontinental)",
+      "category": "5-Star",
+      "district": "الحرم النبوي (Haram Nabawi)"
+    },
+    {
+      "id": "hotel_34",
+      "name": "فندق مرجان المدينة (Murjan Al Madinah Hotel)",
+      "category": "4-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_35",
+      "name": "فندق أرجوان الضيافة (Arjwan Aldiyafah Hotel)",
+      "category": "4-Star",
+      "district": "الضيافة (Al Diyafah)"
+    },
+    {
+      "id": "hotel_36",
+      "name": "فندق روابي الزهراء (Rawabi Al Zahrah Hotel)",
+      "category": "4-Star",
+      "district": "الزهراء (Al Zahrah)"
+    },
+    {
+      "id": "hotel_37",
+      "name": "فندق المدينة الذهبي (Al Madinah Golden Hotel)",
+      "category": "4-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_38",
+      "name": "أجنحة حفاوة (Hafawah Suites)",
+      "category": "4-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_39",
+      "name": "زها المنورة (Zaha Al Munawara)",
+      "category": "4-Star",
+      "district": "المنورة (Al Munawara)"
+    },
+    {
+      "id": "hotel_40",
+      "name": "فندق حياة الواحة (Hayah Al Waha Hotel)",
+      "category": "4-Star",
+      "district": "الواحة (Al Waha)"
+    },
+    {
+      "id": "hotel_41",
+      "name": "إعمار إليت المدينة (Emaar Elite Madinah)",
+      "category": "4-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_42",
+      "name": "فندق هيلتون المدينة (Madinah Hilton Hotel)",
+      "category": "5-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_43",
+      "name": "فندق سيزون ستار المدينة (Season Star Hotel Madinah)",
+      "category": "4-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_44",
+      "name": "مودة الواحة (Mawaddah Al Waha)",
+      "category": "4-Star",
+      "district": "الواحة (Al Waha)"
+    },
+    {
+      "id": "hotel_45",
+      "name": "نزل المنورة (Nozol AlMonawara)",
+      "category": "4-Star",
+      "district": "المنورة (Al Munawara)"
+    },
+    {
+      "id": "hotel_46",
+      "name": "الروضة رويال إن (Al Rawda Royal Inn)",
+      "category": "4-Star",
+      "district": "الروضة (Al Rawda)"
+    },
+    {
+      "id": "hotel_47",
+      "name": "فندق رياض الزهراء (Riyadh Al Zahra Hotel)",
+      "category": "4-Star",
+      "district": "الزهراء (Al Zahrah)"
+    },
+    {
+      "id": "hotel_48",
+      "name": "نسك الإيمان المدينة (Nusk AL Eiman Al-Madinah)",
+      "category": "4-Star",
+      "district": "الإيمان (Al Eiman)"
+    },
+    {
+      "id": "hotel_49",
+      "name": "نسك المدينة (Nusk Al Madinah Hotel)",
+      "category": "4-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_50",
+      "name": "حديقة تو المدينة (Tu Garden Al Madinah)",
+      "category": "4-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_51",
+      "name": "جواهر السقيفة (Jewar El Saqefa)",
+      "category": "4-Star",
+      "district": "السقيفة (Al Saqefa)"
+    },
+    {
+      "id": "hotel_52",
+      "name": "فندق وفادة الزهراء (Wefada Al Zahra Hotel)",
+      "category": "4-Star",
+      "district": "الزهراء (Al Zahrah)"
+    },
+    {
+      "id": "hotel_53",
+      "name": "فندق دبليو بلاتينيوم (W Platinum Hotel)",
+      "category": "4-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_54",
+      "name": "فندق جست أواسيس (Guest Oasis Hotel)",
+      "category": "4-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_55",
+      "name": "فندق زوار الدولي (Zowar International Hotel)",
+      "category": "4-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_56",
+      "name": "فندق البوسفور (Bosphorus Hotel)",
+      "category": "4-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_57",
+      "name": "فندق طيبة المدينة (Taiba Hotel Madinah)",
+      "category": "4-Star",
+      "district": "طيبة (Taiba)"
+    },
+    {
+      "id": "hotel_58",
+      "name": "فندق منازل الأسواف (Manazel Alaswaf Hotel)",
+      "category": "4-Star",
+      "district": "الأسواف (Al Aswaf)"
+    },
+    {
+      "id": "hotel_59",
+      "name": "فندق نزل رويال إن (Nozol Royal Inn Hotel)",
+      "category": "4-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_60",
+      "name": "فندق الساحة (Al Saha Hotel)",
+      "category": "4-Star",
+      "district": "الساحة (Al Saha)"
+    },
+    {
+      "id": "hotel_61",
+      "name": "فندق درة الإيمان (Durrat Al Eiman Hotel)",
+      "category": "4-Star",
+      "district": "الإيمان (Al Eiman)"
+    },
+    {
+      "id": "hotel_62",
+      "name": "إعمار مكتان (Emaar Mektan)",
+      "category": "4-Star",
+      "district": "مكتان (Mektan)"
+    },
+    {
+      "id": "hotel_63",
+      "name": "الإيمان المنار (Al Eiman Al Manar)",
+      "category": "3-Star",
+      "district": "المنار (Al Manar)"
+    },
+    {
+      "id": "hotel_64",
+      "name": "فندق وقف عثمان بن عفان (Waqf Outhman Bin Affan Hotel)",
+      "category": "4-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_65",
+      "name": "فندق دار النعيم (Dar Al Naeem Hotel)",
+      "category": "4-Star",
+      "district": "النعيم (Al Naeem)"
+    },
+    {
+      "id": "hotel_66",
+      "name": "بلاتينيوم الأول (Platinum The First)",
+      "category": "4-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_67",
+      "name": "فندق ديار طيبة (Diyar Taiba Hotel)",
+      "category": "4-Star",
+      "district": "طيبة (Taiba)"
+    },
+    {
+      "id": "hotel_68",
+      "name": "زها المدينة (Zaha Al Medina)",
+      "category": "4-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_69",
+      "name": "فندق الجعد المدينة (Al Jaad Madinah Hotel)",
+      "category": "4-Star",
+      "district": "الجعد (Al Jaad)"
+    },
+    {
+      "id": "hotel_70",
+      "name": "فندق جراند زوار (Grand Zowar Hotel)",
+      "category": "4-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_71",
+      "name": "فندق منازل الفلاح (Manazel Alfalah Hotel)",
+      "category": "4-Star",
+      "district": "الفلاح (Al Falah)"
+    },
+    {
+      "id": "hotel_72",
+      "name": "فندق أركان الماسي (Arkan Almassi Hotel)",
+      "category": "4-Star",
+      "district": "الماسي (Al Massi)"
+    },
+    {
+      "id": "hotel_73",
+      "name": "جولدن توليب الذهبي (Golden Tulip Al Zahabi)",
+      "category": "4-Star",
+      "district": "الذهبي (Al Zahabi)"
+    },
+    {
+      "id": "hotel_74",
+      "name": "فندق المدينة كونكورد (Al Madinah Concorde Hotel)",
+      "category": "4-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_75",
+      "name": "فندق محمدية الزهراء (Mohamdia Al Zahra Hotel)",
+      "category": "4-Star",
+      "district": "الزهراء (Al Zahrah)"
+    },
+    {
+      "id": "hotel_76",
+      "name": "فندق واحة الشرق (Wahat al shark hotel)",
+      "category": "4-Star",
+      "district": "الشرق (Al Shark)"
+    },
+    {
+      "id": "hotel_77",
+      "name": "فندق أبراج طابة (Tabah Towers Hotel)",
+      "category": "4-Star",
+      "district": "طابة (Tabah)"
+    },
+    {
+      "id": "hotel_78",
+      "name": "فندق الأندلس بالاس 2 (Andalus Palace Hotel 2)",
+      "category": "4-Star",
+      "district": "الأندلس (Al Andalus)"
+    },
+    {
+      "id": "hotel_79",
+      "name": "فندق دار الغدير (Dar Al Ghadeer Hotel)",
+      "category": "4-Star",
+      "district": "الغدير (Al Ghadeer)"
+    },
+    {
+      "id": "hotel_80",
+      "name": "برج المختارة (Al.Mukhtara Tower)",
+      "category": "4-Star",
+      "district": "المختارة (Al Mukhtara)"
+    },
+    {
+      "id": "hotel_81",
+      "name": "المناخة روتانا المدينة (Al Manakha Rotana Madinah)",
+      "category": "4-Star",
+      "district": "المناخة (Al Manakha)"
+    },
+    {
+      "id": "hotel_82",
+      "name": "فندق حياة سلام الفضي (Hayah Salam Silver Hotel)",
+      "category": "4-Star",
+      "district": "السلام (Al Salam)"
+    },
+    {
+      "id": "hotel_83",
+      "name": "فنادق الصفا (As'Saafa Hotels)",
+      "category": "4-Star",
+      "district": "الصفا (Al Safa)"
+    },
+    {
+      "id": "hotel_84",
+      "name": "الريتز المدينة (Al Ritz Al Madinah)",
+      "category": "4-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_85",
+      "name": "أركان المنار (Arkan Al Manar)",
+      "category": "4-Star",
+      "district": "المنار (Al Manar)"
+    },
+    {
+      "id": "hotel_86",
+      "name": "فندق وادي المدينة (Valley Al - Madinah Hotel)",
+      "category": "4-Star",
+      "district": "الوادي (Al Wadi)"
+    },
+    {
+      "id": "hotel_87",
+      "name": "فندق حياة الماس (Hayah Diamond Hotel)",
+      "category": "4-Star",
+      "district": "الماس (Al Mas)"
+    },
+    {
+      "id": "hotel_88",
+      "name": "فندق نسك الهجرة (Nusk Alhijra Hotel)",
+      "category": "4-Star",
+      "district": "الهجرة (Al Hijrah)"
+    },
+    {
+      "id": "hotel_89",
+      "name": "فندق سكاي فيو (Sky View Hotel)",
+      "category": "3-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_90",
+      "name": "فندق روضة العقيق (Rawdat Al Aqeeq Hotel)",
+      "category": "3-Star",
+      "district": "العقيق (Al Aqeeq)"
+    },
+    {
+      "id": "hotel_91",
+      "name": "فندق المدينة الجديد (New Madinah Hotel)",
+      "category": "3-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_92",
+      "name": "فندق ديار السلام (Diyar Al-Salam Hotel)",
+      "category": "3-Star",
+      "district": "السلام (Al Salam)"
+    },
+    {
+      "id": "hotel_93",
+      "name": "إيلاف التقوى (Elaf Al Taqwa)",
+      "category": "3-Star",
+      "district": "التقوى (Al Taqwa)"
+    },
+    {
+      "id": "hotel_94",
+      "name": "فندق أدست المدينة (Odst Al Madinah Hotel)",
+      "category": "3-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_95",
+      "name": "ندى الزوار (Nada Alzwar)",
+      "category": "3-Star",
+      "district": "الزوار (Al Zuwar)"
+    },
+    {
+      "id": "hotel_96",
+      "name": "فندق الفيروز كرتاج (Al Fayroz Kartaj Hotel)",
+      "category": "3-Star",
+      "district": "الفيروز (Al Fayroz)"
+    },
+    {
+      "id": "hotel_97",
+      "name": "رحاب الماسي (Rehab Almasi)",
+      "category": "3-Star",
+      "district": "الماسي (Al Massi)"
+    },
+    {
+      "id": "hotel_98",
+      "name": "جوهرة الرشيد (Jawharat Alrasheed)",
+      "category": "3-Star",
+      "district": "الرشيد (Al Rasheed)"
+    },
+    {
+      "id": "hotel_99",
+      "name": "حياة بلس (Hayat Plus)",
+      "category": "3-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_100",
+      "name": "فندق مقاطعة الشام (Province Al Sham Hotel)",
+      "category": "3-Star",
+      "district": "الشام (Al Sham)"
+    },
+    {
+      "id": "hotel_101",
+      "name": "توليب إن الدار روافد (Tulip Inn Al Dar Rawafed)",
+      "category": "3-Star",
+      "district": "الدار (Al Dar)"
+    },
+    {
+      "id": "hotel_102",
+      "name": "سويس انترناشيونال طابا السلام (Swiss International Taba Alsalam)",
+      "category": "3-Star",
+      "district": "طابا (Taba)"
+    },
+    {
+      "id": "hotel_103",
+      "name": "الفخامة الذهبية (Golden Luxury)",
+      "category": "3-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_104",
+      "name": "كراون بلازا المدينة (Crowne Plaza Madinah)",
+      "category": "3-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_105",
+      "name": "فندق العلياء غرف وأجنحة (Al Alya Hotel Rooms and Suites)",
+      "category": "3-Star",
+      "district": "العلياء (Al Alya)"
+    },
+    {
+      "id": "hotel_106",
+      "name": "فندق لولوة مبارك 1 (Hotel Loloat Mubarak 1)",
+      "category": "3-Star",
+      "district": "مبارك (Mubarak)"
+    },
+    {
+      "id": "hotel_107",
+      "name": "الشاكرين جولدن توليب (Al Shakreen Golden Tulip)",
+      "category": "3-Star",
+      "district": "الشاكرين (Al Shakreen)"
+    },
+    {
+      "id": "hotel_108",
+      "name": "حياة الهدى (Hayah Al Huda)",
+      "category": "3-Star",
+      "district": "الهدى (Al Huda)"
+    },
+    {
+      "id": "hotel_109",
+      "name": "ندى الزوار 2 (Nada Alzwar 2)",
+      "category": "3-Star",
+      "district": "الزوار (Al Zuwar)"
+    },
+    {
+      "id": "hotel_110",
+      "name": "فندق طيبة فرونت (Taiba Front Hotel)",
+      "category": "3-Star",
+      "district": "طيبة (Taiba)"
+    },
+    {
+      "id": "hotel_111",
+      "name": "فندق ديار النخيل (Diyar Al Nakheel Hotel)",
+      "category": "3-Star",
+      "district": "النخيل (Al Nakheel)"
+    },
+    {
+      "id": "hotel_112",
+      "name": "فندق طابا السلام (Taba AlSalam hotel)",
+      "category": "3-Star",
+      "district": "طابا (Taba)"
+    },
+    {
+      "id": "hotel_113",
+      "name": "مكارم المحبوبة (Makarem Almahbuba)",
+      "category": "3-Star",
+      "district": "المحبوبة (Al Mahbuba)"
+    },
+     {
+      "id": "hotel_113",
+      "name": "مكارم المحبوبة (Makarem Almahbuba)",
+      "category": "3-Star",
+      "district": "المحبوبة (Al Mahbuba)"
+    },
+    {
+      "id": "hotel_114",
+      "name": "دار الإيمان النور (Dar Al Eiman Al Nour)",
+      "category": "3-Star",
+      "district": "النور (Al Nour)"
+    },
+    {
+      "id": "hotel_115",
+      "name": "جراند بلازا بدر المقام (Grand Plaza Badr Al Maqam)",
+      "category": "3-Star",
+      "district": "بدر المقام (Badr Al Maqam)"
+    },
+    {
+      "id": "hotel_116",
+      "name": "ساجا المدينة (Saja Al Madinah)",
+      "category": "3-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_117",
+      "name": "أرطال طيبة (Artaal Tayba Hotel)",
+      "category": "3-Star",
+      "district": "طيبة (Taiba)"
+    },
+    {
+      "id": "hotel_118",
+      "name": "مراج طيبة (Mirage Taiba)",
+      "category": "3-Star",
+      "district": "طيبة (Taiba)"
+    },
+    {
+      "id": "hotel_119",
+      "name": "روضة الصفوة الذهبي (Rabwat Al Safwa Golden)",
+      "category": "3-Star",
+      "district": "الصفوة (Al Safwah)"
+    },
+    {
+      "id": "hotel_120",
+      "name": "طابا السلام (Taba Al Salam Hotel)",
+      "category": "3-Star",
+      "district": "طابا (Taba)"
+    },
+    {
+      "id": "hotel_121",
+      "name": "حياة الذهبي (Hayah Golden)",
+      "category": "3-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_122",
+      "name": "الإيمان القبلة (Al Eiman Al Qibla Hotel)",
+      "category": "3-Star",
+      "district": "القبلة (Al Qibla)"
+    },
+    {
+      "id": "hotel_123",
+      "name": "الأندلس بالاس الذهبي (Al Andalus Palace Golden)",
+      "category": "3-Star",
+      "district": "الأندلس (Al Andalus)"
+    },
+    {
+      "id": "hotel_124",
+      "name": "أستون سيتي سمامة التنفيذية (Aston City Samama Executive Apartments)",
+      "category": "3-Star",
+      "district": "سمامة (Samama)"
+    },
+    {
+      "id": "hotel_125",
+      "name": "راما المدينة (Rama Al Madina Hotel)",
+      "category": "3-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_126",
+      "name": "جراند صافي (Grand Safi Hotel)",
+      "category": "3-Star",
+      "district": "صافي (Safi)"
+    },
+    {
+      "id": "hotel_127",
+      "name": "ديار الهدى (Diyar Al Huda Hotel)",
+      "category": "3-Star",
+      "district": "الهدى (Al Huda)"
+    },
+    {
+      "id": "hotel_128",
+      "name": "مرامار (Miramar Hotel)",
+      "category": "3-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_129",
+      "name": "الأنصار نيو بالاس (Al Ansar New Palace Hotel)",
+      "category": "3-Star",
+      "district": "الأنصار (Al Ansar)"
+    },
+    {
+      "id": "hotel_130",
+      "name": "أرجوان روز (Arjwan Rose Hotel)",
+      "category": "3-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_131",
+      "name": "ديار المدينة (Diyar Al Madinah Hotel)",
+      "category": "3-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_132",
+      "name": "ثري بوينتس الكوثر (Three Points Al Kawther Hotel)",
+      "category": "3-Star",
+      "district": "الكوثر (Al Kawther)"
+    },
+    {
+      "id": "hotel_133",
+      "name": "الشرفة الجديد (Al Shourfa New Hotel)",
+      "category": "3-Star",
+      "district": "الشرفة (Al Shourfa)"
+    },
+    {
+      "id": "hotel_134",
+      "name": "الأنصار بلس (Alansar Plus)",
+      "category": "3-Star",
+      "district": "الأنصار (Al Ansar)"
+    },
+    {
+      "id": "hotel_135",
+      "name": "سعيد عبيد المولود (Saeedh Ubaid Almowaled)",
+      "category": "3-Star",
+      "district": "المولود (Al Mowaled)"
+    },
+    {
+      "id": "hotel_136",
+      "name": "أمجاد الجرعة (Amjaad Al-Garaa Hotel)",
+      "category": "3-Star",
+      "district": "الجرعة (Al Garaa)"
+    },
+    {
+      "id": "hotel_137",
+      "name": "أنوار الزهراء (Anwar Al-Zahra Hotel)",
+      "category": "3-Star",
+      "district": "الزهراء (Al Zahrah)"
+    },
+    {
+      "id": "hotel_138",
+      "name": "زهرة طيبة الثالث (Zahra Taiba III)",
+      "category": "3-Star",
+      "district": "طيبة (Taiba)"
+    },
+    {
+      "id": "hotel_139",
+      "name": "جراند بلازا المدينة (Grand Plaza Al Madinah)",
+      "category": "3-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_140",
+      "name": "بلازا إن أحد (Plaza Inn Ohud)",
+      "category": "3-Star",
+      "district": "أحد (Ohud)"
+    },
+    {
+      "id": "hotel_141",
+      "name": "جوار المدينة (Jiwar Al Madina Hotel)",
+      "category": "3-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_142",
+      "name": "حياة جراند المدينة (Hayah Grand Hotel Madinah)",
+      "category": "3-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_143",
+      "name": "حياة بلازا (Hayah Plaza Hotel)",
+      "category": "3-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_144",
+      "name": "فرتا المدينة (Verta Al Madinah Hotel)",
+      "category": "3-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_145",
+      "name": "عرائك طيبة (Araek Taibah)",
+      "category": "3-Star",
+      "district": "طيبة (Taiba)"
+    },
+    {
+      "id": "hotel_146",
+      "name": "المختارة الدولي (Al Mokhtara International Hotel)",
+      "category": "3-Star",
+      "district": "المختارة (Al Mukhtara)"
+    },
+    {
+      "id": "hotel_147",
+      "name": "المختارة الماسي (Al Mokhtara Diamond)",
+      "category": "3-Star",
+      "district": "المختارة (Al Mukhtara)"
+    },
+    {
+      "id": "hotel_148",
+      "name": "أرطال طيبة (Artal Taiba Hotel)",
+      "category": "3-Star",
+      "district": "طيبة (Taiba)"
+    },
+    {
+      "id": "hotel_149",
+      "name": "حياة السلام الفضي (Hayatt AlSalam Silver Hotel)",
+      "category": "2-Star",
+      "district": "السلام (Al Salam)"
+    },
+    {
+      "id": "hotel_150",
+      "name": "رحاب طابا (Rehab Taba Hotel)",
+      "category": "2-Star",
+      "district": "طابا (Taba)"
+    },
+    {
+      "id": "hotel_151",
+      "name": "منازل الرحمة (Manazil Al Rahma Hotel)",
+      "category": "2-Star",
+      "district": "الرحمة (Al Rahma)"
+    },
+    {
+      "id": "hotel_152",
+      "name": "الفيروز شطة (Al Fayroz Shatta Hotel)",
+      "category": "2-Star",
+      "district": "شطة (Shatta)"
+    },
+    {
+      "id": "hotel_153",
+      "name": "مراج السلام (Mirage Al Salam Hotel)",
+      "category": "2-Star",
+      "district": "السلام (Al Salam)"
+    },
+    {
+      "id": "hotel_154",
+      "name": "البوسفور وقف الصافي (Bosphorus Waqf Al Safi Hotel)",
+      "category": "2-Star",
+      "district": "الصافي (Al Safi)"
+    },
+    {
+      "id": "hotel_155",
+      "name": "المختارة الذهبي (Al Mukhtara Golden Hotel)",
+      "category": "2-Star",
+      "district": "المختارة (Al Mukhtara)"
+    },
+    {
+      "id": "hotel_156",
+      "name": "العيري المفروشة المدينة 3 (Al Eairy Furnished Apt Al Madinah 3)",
+      "category": "2-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_157",
+      "name": "كرم طيبة الماسي (Hotel Karam Taibah Al Massi)",
+      "category": "2-Star",
+      "district": "الماسي (Al Massi)"
+    },
+    {
+      "id": "hotel_158",
+      "name": "العيري المفروشة المدينة 13 (Al Eairy Furnished Apts Al Madinah 13)",
+      "category": "2-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_159",
+      "name": "ديار طابة (Diyar Tabah)",
+      "category": "2-Star",
+      "district": "طابة (Tabah)"
+    },
+    {
+      "id": "hotel_160",
+      "name": "فيروز السلام (Fairooz Al Salam)",
+      "category": "2-Star",
+      "district": "السلام (Al Salam)"
+    },
+    {
+      "id": "hotel_161",
+      "name": "ندى السلام (Nada Al Salam Hotel)",
+      "category": "2-Star",
+      "district": "السلام (Al Salam)"
+    },
+    {
+      "id": "hotel_162",
+      "name": "ياسمين المدينة (Yasmeen Al Madinah Hotel)",
+      "category": "2-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_163",
+      "name": "سيلا (Sela Hotel)",
+      "category": "2-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_164",
+      "name": "العيري المفروشة المدينة 1 (Al Eairy Furnished Apt Al Madinah 1)",
+      "category": "2-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_165",
+      "name": "الأوائل الذهبي (Al-Awael Golden Hotel)",
+      "category": "2-Star",
+      "district": "الأوائل (Al Awael)"
+    },
+    {
+      "id": "hotel_166",
+      "name": "العيري المفروشة المدينة 8 (Al Eairy Furnished Apts Al Madinah 8)",
+      "category": "2-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_167",
+      "name": "هدى طيبة (Huda Taibah)",
+      "category": "2-Star",
+      "district": "طيبة (Taiba)"
+    },
+    {
+      "id": "hotel_168",
+      "name": "حياة بلازا (Hayat Plaza Hotel)",
+      "category": "2-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_169",
+      "name": "منازل المدينة (Manazil Al Madinah Hotel)",
+      "category": "2-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_170",
+      "name": "تاج وارد (Taj Ward Hotel)",
+      "category": "2-Star",
+      "district": "وارد (Ward)"
+    },
+    {
+      "id": "hotel_171",
+      "name": "الصفا تاور (Al Safa Tower Hotel)",
+      "category": "2-Star",
+      "district": "الصفا (Al Safa)"
+    },
+    {
+      "id": "hotel_172",
+      "name": "لوجين الخير 1 (Hotel Lugin Al Khair 1)",
+      "category": "2-Star",
+      "district": "الخير (Al Khair)"
+    },
+    {
+      "id": "hotel_173",
+      "name": "المختارة الغربي (Al Mukhtara Al Gharbi)",
+      "category": "2-Star",
+      "district": "المختارة (Al Mukhtara)"
+    },
+    {
+      "id": "hotel_174",
+      "name": "روز الماسي (Rose Diamond)",
+      "category": "2-Star",
+      "district": "الماسي (Al Massi)"
+    },
+    {
+      "id": "hotel_175",
+      "name": "الأندلس بالاس 3 (Al Andalus Palace 3)",
+      "category": "2-Star",
+      "district": "الأندلس (Al Andalus)"
+    },
+    {
+      "id": "hotel_176",
+      "name": "لوجين الخير (Lugen Al Khair Hotel)",
+      "category": "2-Star",
+      "district": "الخير (Al Khair)"
+    },
+    {
+      "id": "hotel_177",
+      "name": "طائف النبراس (Taif Al-Nebrass)",
+      "category": "2-Star",
+      "district": "النبراس (Al Nebrass)"
+    },
+    {
+      "id": "hotel_178",
+      "name": "روز المدينة (Rose Al Medina)",
+      "category": "2-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_179",
+      "name": "العيري المفروشة المدينة 14 (Al Eairy Furnished Apts Al Madinah 14)",
+      "category": "2-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_180",
+      "name": "كرم حجاز (Karam Hijaz Hotel)",
+      "category": "2-Star",
+      "district": "حجاز (Hijaz)"
+    },
+    {
+      "id": "hotel_181",
+      "name": "بين وود (Pinewood Hotel)",
+      "category": "2-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_182",
+      "name": "الصفا الذهبي (Al Safa Golden Hotel)",
+      "category": "2-Star",
+      "district": "الصفا (Al Safa)"
+    },
+    {
+      "id": "hotel_183",
+      "name": "سبال (Spall Hotel)",
+      "category": "2-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_184",
+      "name": "طيبة العطر (Taiba Perfume Hotel)",
+      "category": "1-Star",
+      "district": "طيبة (Taiba)"
+    },
+    {
+      "id": "hotel_185",
+      "name": "زهرة الستة (Zahra Six Hotel)",
+      "category": "1-Star",
+      "district": "الزهراء (Al Zahrah)"
+    },
+    {
+      "id": "hotel_186",
+      "name": "واصل الذهبي (Golden Wasel Hotel)",
+      "category": "1-Star",
+      "district": "واصل (Wasel)"
+    },
+    {
+      "id": "hotel_187",
+      "name": "مودة التقوى (Mawadaa Al Taqwa)",
+      "category": "1-Star",
+      "district": "التقوى (Al Taqwa)"
+    },
+    {
+      "id": "hotel_188",
+      "name": "فردوس (Paradise Hotel)",
+      "category": "1-Star",
+      "district": "الفردوس (Al Fardous)"
+    },
+    {
+      "id": "hotel_189",
+      "name": "أرجوان السلام (Arjwan Alsalam)",
+      "category": "1-Star",
+      "district": "السلام (Al Salam)"
+    },
+    {
+      "id": "hotel_190",
+      "name": "كرم الذهبي (Karam Golden)",
+      "category": "1-Star",
+      "district": "الذهبي (Al Zahabi)"
+    },
+    {
+      "id": "hotel_191",
+      "name": "مذهر الطيبة 2 (Mather Altaiba 2)",
+      "category": "1-Star",
+      "district": "طيبة (Taiba)"
+    },
+    {
+      "id": "hotel_192",
+      "name": "سدرة العالية (Sidrathul Aaliya Hotel)",
+      "category": "1-Star",
+      "district": "العالية (Al Aaliya)"
+    },
+    {
+      "id": "hotel_193",
+      "name": "روضة الصفوة (Rawdat Al Safwa Hotel)",
+      "category": "1-Star",
+      "district": "الصفوة (Al Safwah)"
+    },
+    {
+      "id": "hotel_194",
+      "name": "البراء مرمرة (Al Baraa Marmara Hotel)",
+      "category": "1-Star",
+      "district": "البراء (Al Baraa)"
+    },
+    {
+      "id": "hotel_195",
+      "name": "بدر المرسى (Bader Al Marsa Hotel)",
+      "category": "1-Star",
+      "district": "المرسى (Al Marsa)"
+    },
+    {
+      "id": "hotel_196",
+      "name": "إعمار طيبة (Emaar Taibah Hotel)",
+      "category": "1-Star",
+      "district": "طيبة (Taiba)"
+    },
+    {
+      "id": "hotel_197",
+      "name": "وردة الصفا (Wardah Al Safa)",
+      "category": "1-Star",
+      "district": "الصفا (Al Safa)"
+    },
+    {
+      "id": "hotel_198",
+      "name": "أرطال المنورة (Artal Al-Monawwarah Hotel)",
+      "category": "1-Star",
+      "district": "المنورة (Al Munawara)"
+    },
+    {
+      "id": "hotel_199",
+      "name": "كرم الفضي (Karam Al-Fedhi Hotel)",
+      "category": "1-Star",
+      "district": "الفضي (Al Fedhi)"
+    },
+    {
+      "id": "hotel_200",
+      "name": "أرجوان الذهبي (Arjwan Aldhabi)",
+      "category": "1-Star",
+      "district": "الذهبي (Al Zahabi)"
+    },
+    {
+      "id": "hotel_201",
+      "name": "البوسفور الثاني (Al-Bosphorus Two Hotel)",
+      "category": "1-Star",
+      "district": "البوسفور (Al Bosphorus)"
+    },
+    {
+      "id": "hotel_202",
+      "name": "ديوان روز (Diwan Rose Hotel)",
+      "category": "1-Star",
+      "district": "ديوان (Diwan)"
+    },
+    {
+      "id": "hotel_203",
+      "name": "عرائس المدينة (Aress Almadinh Hotel)",
+      "category": "1-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_204",
+      "name": "الصفا سنتر (Alsafa Center)",
+      "category": "1-Star",
+      "district": "الصفا (Al Safa)"
+    },
+    {
+      "id": "hotel_205",
+      "name": "الزهراء (Alzahra Hotel)",
+      "category": "1-Star",
+      "district": "الزهراء (Al Zahrah)"
+    },
+    {
+      "id": "hotel_206",
+      "name": "أرطال الدولي (Artal International Hotel)",
+      "category": "1-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_207",
+      "name": "العيري المفروشة المدينة 9 (Al Eairy Furnished Apartments Al Madinah 9)",
+      "category": "0-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
+    },
+    {
+      "id": "hotel_208",
+      "name": "فليفر (Flavor Hotel)",
+      "category": "0-Star",
+      "district": "المنطقة المركزية (Zone Centrale)"
     }
-    
-    ]
+  ]
 }

@@ -225,8 +225,8 @@ const GestionnaireHotels = () => {
 
   // Initialiser les hôtels depuis le fichier JSON
   useEffect(() => {
-    setHotels(hotelsData.makkahHotels);
-    setHotelsFilltres(hotelsData.makkahHotels);
+    setHotels(hotelsData.madinahHotels);
+    setHotelsFilltres(hotelsData.madinahHotels);
 
     // Charger les champs personnalisés depuis la mémoire
     const champsPersonnalisesSauvegardes = JSON.parse(
@@ -367,94 +367,76 @@ const GestionnaireHotels = () => {
   };
 
   // Exporter les données d'un seul hôtel
-  const exporterVersExcel = () => {
-    if (!hotelSelectionne) {
-      alert("يرجى اختيار فندق أولاً!");
-      return;
-    }
+ const exporterVersExcel = () => {
+  if (!hotelSelectionne) {
+    alert("يرجى اختيار فندق أولاً!");
+    return;
+  }
 
-    const donneesHotelSelectionne = hotels.find(
-      (h) => h.id === hotelSelectionne
-    );
-    const tousLesChamps = [
-      ...Object.values(categoriesChamps).flatMap((cat) => cat.fields),
-      ...Object.values(generateRoomTypeCategories()).flatMap(
-        (cat) => cat.fields
-      ),
-      ...champsPersonnalises,
-    ];
+  const donneesHotelSelectionne = hotels.find(h => h.id === hotelSelectionne);
+  const wb = XLSX.utils.book_new();
+  
+  const data = [];
 
-    const donneesExportation = tousLesChamps.map((champ) => ({
-      الحقل: champ,
-      القيمة: donneesActuelles[champ] || "",
-    }));
+  // Header
+  data.push(['تفاصيل الفندق', '']);
+  data.push(['', '']);
+  data.push(['اسم الفندق', donneesHotelSelectionne?.name || '']);
+  data.push(['', '']);
 
-    donneesExportation.unshift({
-      الحقل: "اسم الفندق",
-      القيمة: donneesHotelSelectionne?.name || "",
-    });
-
-
-    const ws = XLSX.utils.json_to_sheet(donneesExportation);
-    const wb = XLSX.utils.book_new();
-    XLSX.utils.book_append_sheet(wb, ws, "بيانات الفندق");
-    XLSX.writeFile(
-      wb,
-      `${donneesHotelSelectionne?.name.replace(
-        /[^a-zA-Z0-9]/g,
-        "_"
-      )}_بيانات.xlsx`
-    );
+  // Process categories
+  const allCategories = {
+    ...categoriesChamps,
+    ...generateRoomTypeCategories()
   };
 
-  // Exporter toutes les données des hôtels
-  const exporterTousLesHotels = () => {
-    const tousLesChamps = [
-      ...Object.values(categoriesChamps).flatMap((cat) => cat.fields),
-      ...champsPersonnalises,
-    ];
+  Object.entries(allCategories).forEach(([categoryName, categoryData]) => {
+    if (categoryName === "أنواع الغرف والأجنحة") return;
 
-    const donneesExportation = [];
+    // Category header
+    data.push([`=== ${categoryName} ===`, '']);
+    data.push(['الحقل', 'القيمة']);
 
-    hotels.forEach((hotel) => {
-      const donneesHotel = JSON.parse(
-        sessionStorage.getItem(`hotel_${hotel.id}`) || "{}"
-      );
-
-      donneesExportation.push({
-        الفندق: hotel.name,
-        الحقل: "اسم الفندق",
-        القيمة: hotel.name,
-      });
-
-      donneesExportation.push({
-        الفندق: hotel.name,
-        الحقل: "فئة الفندق",
-        القيمة: hotel.category,
-      });
-
-      donneesExportation.push({
-        الفندق: hotel.name,
-        الحقل: "منطقة الفندق",
-        القيمة: hotel.district,
-      });
-
-      tousLesChamps.forEach((champ) => {
-        donneesExportation.push({
-          الفندق: hotel.name,
-          الحقل: champ,
-          القيمة: donneesHotel[champ] || "",
-        });
-      });
-
-      donneesExportation.push({ الفندق: "", الحقل: "", القيمة: "" });
+    // Category fields
+    categoryData.fields.forEach(field => {
+      const value = donneesActuelles[field] || "";
+      data.push([
+        field,
+        value || "غير مكتمل"
+      ]);
     });
 
-    const ws = XLSX.utils.json_to_sheet(donneesExportation);
-    const wb = XLSX.utils.book_new();
-    XLSX.utils.book_append_sheet(wb, ws, "بيانات جميع الفنادق");
-    XLSX.writeFile(wb, "البيانات_الكاملة_جميع_الفنادق.xlsx");
-  };
+    data.push(['', '']); // Empty row
+  });
+
+  // Custom fields
+  if (champsPersonnalises.length > 0) {
+    data.push(['=== الحقول المخصصة ===', '']);
+    data.push(['الحقل', 'القيمة']);
+
+    champsPersonnalises.forEach(field => {
+      const value = donneesActuelles[field] || "";
+      data.push([
+        field,
+        value || "غير مكتمل"
+      ]);
+    });
+  }
+
+  // Create worksheet from array
+  const ws = XLSX.utils.aoa_to_sheet(data);
+
+  // Set column widths for only 2 columns now
+  ws['!cols'] = [
+    { width: 40 }, // Column A - Field name
+    { width: 30 }  // Column B - Value
+  ];
+
+  XLSX.utils.book_append_sheet(wb, ws, "بيانات الفندق");
+  XLSX.writeFile(wb, `${donneesHotelSelectionne?.name.replace(/[^a-zA-Z0-9]/g, "_")}_بيانات_مفصلة.xlsx`);
+};
+
+ 
 
   // Fonctions d'aide
 
@@ -727,13 +709,7 @@ const GestionnaireHotels = () => {
                   <Download className="w-5 h-5" />
                   تصدير الفندق
                 </button>
-                <button
-                  onClick={exporterTousLesHotels}
-                  className="bg-gradient-to-r from-gray-700 to-gray-800 hover:from-gray-800 hover:to-gray-900 text-white px-6 py-3 rounded-xl font-semibold flex items-center gap-2 transition-all transform hover:scale-105 shadow-lg"
-                >
-                  <Download className="w-5 h-5" />
-                  تصدير جميع الفنادق
-                </button>
+              
               </div>
 
               <div className="flex items-center gap-3 bg-white/90 rounded-xl p-3 border-2 border-yellow-300">
