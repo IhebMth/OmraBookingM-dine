@@ -889,6 +889,12 @@
       "district": "طيبة (Taiba)"
     },
     {
+  "id": "hotel_213",
+  "name": "دار الأجيال (Dar Alajyal)",
+  "category": "2-Star",
+  "district": "المصانع (Al Masani)"
+},
+    {
       "id": "hotel_149",
       "name": "حياة السلام الفضي (Hayatt AlSalam Silver Hotel)",
       "category": "2-Star",

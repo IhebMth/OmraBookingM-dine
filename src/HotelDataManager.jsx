@@ -196,6 +196,47 @@ const GestionnaireHotels = () => {
     },
   };
 
+  // Bed type and room category options
+const bedTypeOptions = [
+  { value: "", label: "اختر نوع السرير..." },
+  { value: "canapé-lit", label: "Canapé-lit — أريكة تتحول إلى سرير" },
+  { value: "lit-baldaquin", label: "Lit à baldaquin — سرير مغطّى (بأعمدة وستائر)" },
+  { value: "lit-appoint", label: "Lit d'appoint — سرير إضافي" },
+  { value: "lit-jour", label: "Lit de jour — سرير نهاري" },
+  { value: "lit-double", label: "Lit double — سرير مزدوج" },
+  { value: "lit-escamotable", label: "Lit escamotable — سرير قابل للطيّ (أو سرير جداري)" },
+  { value: "lit-king", label: "Lit king — سرير كينغ" },
+  { value: "lit-queen", label: "Lit queen — سرير كوين" },
+  { value: "lit-simple", label: "Lit simple — سرير مفرد" },
+  { value: "lit-jumeaux", label: "Lit jumeaux — سريران توأم" },
+  { value: "lit-triple", label: "Lit triple — سرير ثلاثي" },
+  { value: "lits-superposes", label: "Lits superposés — أسرّة بطابقين" }
+];
+
+const roomCategoryOptions = [
+  { value: "", label: "اختر فئة الغرفة..." },
+  { value: "royale", label: "Royale — ملكيّة" },
+  { value: "deluxe", label: "Deluxe — ديلوكس" },
+  { value: "standard", label: "Standard — قياسي" },
+  { value: "ambassadeur", label: "Ambassadeur — سفير" },
+  { value: "classique", label: "Classique — كلاسيكي" },
+  { value: "confort", label: "Confort — مريح" },
+  { value: "diplomatique", label: "Diplomatique — دبلوماسي" },
+  { value: "executive", label: "Executive — تنفيذي" },
+  { value: "familiale", label: "Familiale — عائلي" },
+  { value: "junior", label: "Junior — جونيور" },
+  { value: "panoramique", label: "Panoramique — بانورامي" },
+  { value: "pmr", label: "PMR — لذوي الاحتياجات الخاصة" },
+  { value: "premium", label: "Premium — بريميوم" },
+  { value: "presidentielle", label: "Présidentielle — رئاسي" },
+  { value: "prince", label: "Prince — أميري" },
+  { value: "residentielle", label: "Résidentielle — سكني" },
+  { value: "signature", label: "Signature — سيغنتشر (أو مميّز)" },
+  { value: "studio", label: "Studio — استوديو" },
+  { value: "superieur", label: "Supérieur — فاخر (أو سوبريور)" },
+  { value: "tour", label: "Tour" }
+];
+
   const generateRoomTypeCategories = () => {
     const roomTypeCategories = {};
 
@@ -211,7 +252,8 @@ const GestionnaireHotels = () => {
           `النوع ${i} - ما نوع الإطلالة؟`,
           `النوع ${i} - كم عدد الأشخاص الذين يمكن أن يشغلوا هذه الغرفة أو الجناح؟`,
           `النوع ${i} - ما مساحة الغرفة؟`,
-          `النوع ${i} - ما اسم السرير؟ (كينغ سايز، سرير مزدوج، إلخ...)`,
+`النوع ${i} - نوع السرير`,
+`النوع ${i} - فئة الغرفة`,
           `النوع ${i} - ما عدد الأسرة في الغرفة؟`,
           `النوع ${i} - ما عرض السرير؟`,
           `النوع ${i} - هل توجد سجادة صلاة، قرآن كريم، واتجاه القبلة معروض في الغرفة؟`,
@@ -798,30 +840,71 @@ const GestionnaireHotels = () => {
                         </h3>
                       </div>
 
-                      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                        {champsAAfficher.map((champ) => (
-                          <div key={champ} className="space-y-2">
-                            <label className="block text-gray-800 text-sm font-semibold">
-                              {champ}
-                              {!donneesActuelles[champ]?.trim() && (
-                                <span className="text-red-500 ml-1">*</span>
-                              )}
-                            </label>
-                            <input
-                              type="text"
-                              value={donneesActuelles[champ] || ""}
-                              onChange={(e) =>
-                                gererChangementChamp(champ, e.target.value)
-                              }
-                              className="w-full p-3 rounded-lg bg-gray-50 border-2 border-yellow-400 text-gray-800 placeholder-gray-500 focus:border-amber-500 focus:ring-2 focus:ring-yellow-200 transition-all"
-                              placeholder={`أدخل ${champ.toLowerCase()}...`}
-                              data-field={champ}
-                              onFocus={() => setChampEnCoursEdition(champ)}
-                              onBlur={() => setChampEnCoursEdition("")}
-                            />
-                          </div>
-                        ))}
-                      </div>
+                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+  {champsAAfficher.map((champ) => {
+    const isBedTypeField = champ.includes("نوع السرير");
+    const isRoomCategoryField = champ.includes("فئة الغرفة");
+    
+    return (
+      <div key={champ} className="space-y-2">
+        <label className="block text-gray-800 text-sm font-semibold">
+          {champ}
+          {!donneesActuelles[champ]?.trim() && (
+            <span className="text-red-500 ml-1">*</span>
+          )}
+        </label>
+        {isBedTypeField ? (
+          <select
+            value={donneesActuelles[champ] || ""}
+            onChange={(e) =>
+              gererChangementChamp(champ, e.target.value)
+            }
+            className="w-full p-3 rounded-lg bg-gray-50 border-2 border-yellow-400 text-gray-800 focus:border-amber-500 focus:ring-2 focus:ring-yellow-200 transition-all"
+            onFocus={() => setChampEnCoursEdition(champ)}
+            onBlur={() => setChampEnCoursEdition("")}
+            data-field={champ}
+          >
+            {bedTypeOptions.map((option) => (
+              <option key={option.value} value={option.value}>
+                {option.label}
+              </option>
+            ))}
+          </select>
+        ) : isRoomCategoryField ? (
+          <select
+            value={donneesActuelles[champ] || ""}
+            onChange={(e) =>
+              gererChangementChamp(champ, e.target.value)
+            }
+            className="w-full p-3 rounded-lg bg-gray-50 border-2 border-yellow-400 text-gray-800 focus:border-amber-500 focus:ring-2 focus:ring-yellow-200 transition-all"
+            onFocus={() => setChampEnCoursEdition(champ)}
+            onBlur={() => setChampEnCoursEdition("")}
+            data-field={champ}
+          >
+            {roomCategoryOptions.map((option) => (
+              <option key={option.value} value={option.value}>
+                {option.label}
+              </option>
+            ))}
+          </select>
+        ) : (
+          <input
+            type="text"
+            value={donneesActuelles[champ] || ""}
+            onChange={(e) =>
+              gererChangementChamp(champ, e.target.value)
+            }
+            className="w-full p-3 rounded-lg bg-gray-50 border-2 border-yellow-400 text-gray-800 placeholder-gray-500 focus:border-amber-500 focus:ring-2 focus:ring-yellow-200 transition-all"
+            placeholder={`أدخل ${champ.toLowerCase()}...`}
+            data-field={champ}
+            onFocus={() => setChampEnCoursEdition(champ)}
+            onBlur={() => setChampEnCoursEdition("")}
+          />
+        )}
+      </div>
+    );
+  })}
+</div>
                     </div>
                   );
                 })}
