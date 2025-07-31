@@ -1253,6 +1253,78 @@
       "name": "فليفر (Flavor Hotel)",
       "category": "0-Star",
       "district": "المنطقة المركزية (Zone Centrale)"
-    }
+    },
+    {
+  "id": "hotel_209",
+  "name": "أراماس المدينة (Aramas Madinah Hotel)",
+  "category": "0-Star",
+  "district": "المنطقة المركزية (Zone Centrale)"
+},
+{
+  "id": "hotel_210",
+  "name": "ديلايتس إن (Delights Inn)",
+  "category": "0-Star",
+  "district": "المنطقة المركزية (Zone Centrale)"
+},
+{
+  "id": "hotel_211",
+  "name": "فرج المدينة (FARAJ AL MADINA HOTEL)",
+  "category": "0-Star",
+  "district": "المنطقة المركزية (Zone Centrale)"
+},
+{
+  "id": "hotel_212",
+  "name": "ذا سيزونس هوتيلز (The Seasons Hotels)",
+  "category": "4-Star",
+  "district": "المنطقة المركزية (Zone Centrale)"
+},
+{
+  "id": "hotel_213",
+  "name": "بلازا إن أُحد (Plaza Inn Ohud)",
+  "category": "2-Star",
+  "district": "المنطقة المركزية (Zone Centrale)"
+},
+{
+  "id": "hotel_214",
+  "name": "روضة المختارة (Rawda Al mukhtara)",
+  "category": "0-Star",
+  "district": "المنطقة المركزية (Zone Centrale)"
+},
+{
+  "id": "hotel_215",
+  "name": "أرام سويتس (ARAM Suites)",
+  "category": "0-Star",
+  "district": "المنطقة المركزية (Zone Centrale)"
+},
+{
+  "id": "hotel_216",
+  "name": "حسنى سويتس (Hasana Suites)",
+  "category": "0-Star",
+  "district": "المنطقة المركزية (Zone Centrale)"
+},
+{
+  "id": "hotel_217",
+  "name": "ميراج السلام (Mirage Al Salam Hotel)",
+  "category": "2-Star",
+  "district": "المنطقة المركزية (Zone Centrale)"
+},
+{
+  "id": "hotel_218",
+  "name": "طابة السلام السابق (تابع سويس إنترناشونال المدينة) (Taba Al Salam Hotel EX - Swiss International Al Madina Hotel)",
+  "category": "3-Star",
+  "district": "المنطقة المركزية (Zone Centrale)"
+},
+{
+  "id": "hotel_219",
+  "name": "عزارد هوتيل (Azard Hotel)",
+  "category": "0-Star",
+  "district": "المنطقة المركزية (Zone Centrale)"
+},
+{
+  "id": "hotel_220",
+  "name": "إلاف طيبة (Elaf Taïba)",
+  "category": "3-Star",
+  "district": "المنطقة المركزية (Zone Centrale)"
+}
   ]
 }
